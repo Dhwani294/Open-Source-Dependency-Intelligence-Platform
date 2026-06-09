@@ -353,7 +353,7 @@ Returns system status and freshness metadata.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vulngraph.git
+git clone https://github.com/Dhwani294/Dhwani294/Open-Source-Dependency-Intelligence-Platform.git
 cd vulngraph
 ```
 
