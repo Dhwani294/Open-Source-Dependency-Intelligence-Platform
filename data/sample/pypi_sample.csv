@@ -1,0 +1,6 @@
+package_name,ecosystem,version,release_date,maintainer_handle,maintainer_org,verified,yanked_flag
+fastapi,pypi,0.115.0,2025-01-01,tiangolo,fastapi,true,false
+fastapi,pypi,0.115.1,2025-01-15,tiangolo,fastapi,true,false
+pandas,pypi,2.2.0,2025-01-05,pandas-dev,pandas,true,false
+pandas,pypi,2.2.1,2025-02-01,pandas-dev,pandas,true,false
+requests,pypi,2.31.0,2025-01-03,kennethreitz,requests,false,false

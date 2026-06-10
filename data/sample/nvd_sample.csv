@@ -1,0 +1,4 @@
+cve_id,published_date,last_modified_date,severity_score,cvss_vector,description
+CVE-2025-0001,2025-01-01,2025-01-02,9.8,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Remote code execution
+CVE-2025-0002,2025-01-05,2025-01-07,7.5,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N,SQL injection
+CVE-2025-0003,2025-01-09,2025-01-10,5.4,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N,XSS vulnerability

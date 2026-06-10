@@ -1,0 +1,2266 @@
+[0m02:02:01.129767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CD323C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CD35268D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CD5569280>]}
+
+
+============================== 02:02:01.145137 | 9c8763cc-bb0f-4e3b-84f3-99648472e90e ==============================
+[0m02:02:01.145137 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:02:01.146129 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug --project-dir dbt --profiles-dir dbt', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:02:01.192420 [info ] [MainThread]: dbt version: 1.11.11
+[0m02:02:01.193420 [info ] [MainThread]: python version: 3.12.5
+[0m02:02:01.194422 [info ] [MainThread]: python path: C:\Users\KIIT\Desktop\vulngraph\.venv\Scripts\python.exe
+[0m02:02:01.195421 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m02:02:01.203724 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'GCP_PROJECT_ID'
+[0m02:02:01.204722 [debug] [MainThread]: Command `dbt debug` failed at 02:02:01.204722 after 0.32 seconds
+[0m02:02:01.206032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CD5CC5970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CD61127B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CD7976ED0>]}
+[0m02:02:01.206032 [debug] [MainThread]: Flushing usage events
+[0m02:02:03.541690 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:05:04.161499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B813DF9550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B816F8FB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B816F8DD30>]}
+
+
+============================== 02:05:04.179039 | a9c4077c-9a15-409c-82ed-20f71263162d ==============================
+[0m02:05:04.179039 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:05:04.181073 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'invocation_command': 'dbt debug --project-dir dbt --profiles-dir dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:05:04.263293 [info ] [MainThread]: dbt version: 1.11.11
+[0m02:05:04.265295 [info ] [MainThread]: python version: 3.12.5
+[0m02:05:04.267295 [info ] [MainThread]: python path: C:\Users\KIIT\Desktop\vulngraph\.venv\Scripts\python.exe
+[0m02:05:04.269294 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m02:05:04.307142 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'GOOGLE_APPLICATION_CREDENTIALS'
+[0m02:05:04.314972 [debug] [MainThread]: Command `dbt debug` failed at 02:05:04.313968 after 0.68 seconds
+[0m02:05:04.315959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B817991280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B816F8FB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B818F04470>]}
+[0m02:05:04.316958 [debug] [MainThread]: Flushing usage events
+[0m02:05:07.238798 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:06:57.724543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124960E24E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001249378C350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001249531E0F0>]}
+
+
+============================== 02:06:57.739530 | b7bd84ef-393d-4089-8745-5895092d43a3 ==============================
+[0m02:06:57.739530 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:06:57.743110 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug --project-dir dbt --profiles-dir dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:06:57.821343 [info ] [MainThread]: dbt version: 1.11.11
+[0m02:06:57.824371 [info ] [MainThread]: python version: 3.12.5
+[0m02:06:57.827370 [info ] [MainThread]: python path: C:\Users\KIIT\Desktop\vulngraph\.venv\Scripts\python.exe
+[0m02:06:57.829369 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m02:06:57.877103 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'GOOGLE_APPLICATION_CREDENTIALS'
+[0m02:06:57.883917 [debug] [MainThread]: Command `dbt debug` failed at 02:06:57.882911 after 0.85 seconds
+[0m02:06:57.887912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001249660D970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124966E2120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124969C2E70>]}
+[0m02:06:57.891151 [debug] [MainThread]: Flushing usage events
+[0m02:07:00.592158 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:09:17.669468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020296E1AA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020294AEC290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202955B0C50>]}
+
+
+============================== 02:09:17.694418 | 3c794da2-133b-421c-a26b-2377f33ed0d0 ==============================
+[0m02:09:17.694418 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:09:17.699623 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug --project-dir dbt --profiles-dir dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:09:17.809103 [info ] [MainThread]: dbt version: 1.11.11
+[0m02:09:17.812663 [info ] [MainThread]: python version: 3.12.5
+[0m02:09:17.816267 [info ] [MainThread]: python path: C:\Users\KIIT\Desktop\vulngraph\.venv\Scripts\python.exe
+[0m02:09:17.819254 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m02:09:17.877464 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'GOOGLE_APPLICATION_CREDENTIALS'
+[0m02:09:17.885005 [debug] [MainThread]: Command `dbt debug` failed at 02:09:17.884003 after 0.99 seconds
+[0m02:09:17.889003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002029757B5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020297CBA960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202971E7BF0>]}
+[0m02:09:17.892005 [debug] [MainThread]: Flushing usage events
+[0m02:09:21.077932 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:12:59.632562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292A34596A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292A31929F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292A2ABADE0>]}
+
+
+============================== 02:12:59.652936 | ac305638-10d7-4bd0-a48b-8d4f704650b1 ==============================
+[0m02:12:59.652936 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:12:59.654932 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug --project-dir dbt --profiles-dir dbt', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:12:59.726098 [info ] [MainThread]: dbt version: 1.11.11
+[0m02:12:59.728095 [info ] [MainThread]: python version: 3.12.5
+[0m02:12:59.730112 [info ] [MainThread]: python path: C:\Users\KIIT\Desktop\vulngraph\.venv\Scripts\python.exe
+[0m02:12:59.732264 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m02:13:05.279875 [info ] [MainThread]: Using profiles dir at dbt
+[0m02:13:05.281872 [info ] [MainThread]: Using profiles.yml file at dbt\profiles.yml
+[0m02:13:05.284396 [info ] [MainThread]: Using dbt_project.yml file at dbt\dbt_project.yml
+[0m02:13:05.285424 [info ] [MainThread]: adapter type: bigquery
+[0m02:13:05.287416 [info ] [MainThread]: adapter version: 1.11.1
+[0m02:13:05.702409 [info ] [MainThread]: Configuration:
+[0m02:13:05.704408 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:13:05.705415 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m02:13:05.708021 [info ] [MainThread]: Required dependencies:
+[0m02:13:05.711043 [debug] [MainThread]: Executing "git --help"
+[0m02:13:05.878089 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:13:05.880088 [debug] [MainThread]: STDERR: "b''"
+[0m02:13:05.882088 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:13:05.884079 [info ] [MainThread]: Connection:
+[0m02:13:05.885091 [info ] [MainThread]:   method: oauth
+[0m02:13:05.887643 [info ] [MainThread]:   database: erudite-river-423507-n3
+[0m02:13:05.889645 [info ] [MainThread]:   execution_project: erudite-river-423507-n3
+[0m02:13:05.891652 [info ] [MainThread]:   schema: vulngraph
+[0m02:13:05.893653 [info ] [MainThread]:   location: US
+[0m02:13:05.895654 [info ] [MainThread]:   priority: None
+[0m02:13:05.897644 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m02:13:05.899648 [info ] [MainThread]:   impersonate_service_account: None
+[0m02:13:05.901649 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m02:13:05.902646 [info ] [MainThread]:   job_retries: 1
+[0m02:13:05.905708 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m02:13:05.908846 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m02:13:05.910844 [info ] [MainThread]:   timeout_seconds: 300
+[0m02:13:05.912846 [info ] [MainThread]:   client_id: None
+[0m02:13:05.914868 [info ] [MainThread]:   token_uri: None
+[0m02:13:05.917877 [info ] [MainThread]:   compute_region: None
+[0m02:13:05.918878 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m02:13:05.921871 [info ] [MainThread]:   gcs_bucket: None
+[0m02:13:05.923864 [info ] [MainThread]:   dataproc_batch: None
+[0m02:13:05.926878 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:13:07.518171 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m02:13:07.519172 [debug] [MainThread]: On debug: select 1 as id
+[0m02:13:07.520171 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:13:15.871035 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:186401cf-23f4-44f0-8b5e-491e5b2cb155&page=queryresults
+[0m02:13:16.556138 [debug] [MainThread]: SQL status: OK in 0.682 seconds
+[0m02:13:17.752738 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m02:13:17.753725 [info ] [MainThread]: [32mAll checks passed![0m
+[0m02:13:17.756720 [debug] [MainThread]: Command `dbt debug` succeeded at 02:13:17.756720 after 18.57 seconds
+[0m02:13:17.757739 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:13:17.758753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292B5B38290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292B61C7050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292A3572D80>]}
+[0m02:13:17.760156 [debug] [MainThread]: Flushing usage events
+[0m02:13:19.790079 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:13:38.441096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D416B020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D4BECE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D44FBB00>]}
+
+
+============================== 02:13:38.447102 | 3e9944ac-447a-4e7a-a289-e3eda04b54fd ==============================
+[0m02:13:38.447102 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:13:38.448112 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --project-dir dbt --profiles-dir dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:13:40.007910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D64F4A40>]}
+[0m02:13:40.128845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E7954890>]}
+[0m02:13:40.129846 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:13:40.652475 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m02:13:40.653476 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m02:13:40.653476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E7897F80>]}
+[0m02:13:42.605229 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.vulngraph.marts
+[0m02:13:42.615223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E7E0D070>]}
+[0m02:13:42.731004 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:13:42.741590 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:13:42.773756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E7F84E90>]}
+[0m02:13:42.774754 [info ] [MainThread]: Found 9 models, 5 sources, 549 macros
+[0m02:13:42.775750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D2775010>]}
+[0m02:13:42.778762 [info ] [MainThread]: 
+[0m02:13:42.779763 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m02:13:42.780413 [info ] [MainThread]: 
+[0m02:13:42.781515 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m02:13:42.787532 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_erudite-river-423507-n3'
+[0m02:13:42.788523 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:13:46.287538 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_erudite-river-423507-n3_vulngraph'
+[0m02:13:46.288553 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:13:47.180246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E7743BC0>]}
+[0m02:13:47.182260 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:13:47.192848 [debug] [Thread-1 (]: Began running node model.vulngraph.dim_maintainers
+[0m02:13:47.193843 [debug] [Thread-2 (]: Began running node model.vulngraph.dim_versions
+[0m02:13:47.194852 [debug] [Thread-3 (]: Began running node model.vulngraph.stg_github_advisory
+[0m02:13:47.195849 [debug] [Thread-4 (]: Began running node model.vulngraph.stg_libraries_io
+[0m02:13:47.196855 [info ] [Thread-1 (]: 1 of 9 START sql view model vulngraph.dim_maintainers .......................... [RUN]
+[0m02:13:47.197852 [info ] [Thread-2 (]: 2 of 9 START sql view model vulngraph.dim_versions ............................. [RUN]
+[0m02:13:47.198849 [info ] [Thread-3 (]: 3 of 9 START sql view model vulngraph.stg_github_advisory ...................... [RUN]
+[0m02:13:47.200842 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.vulngraph.dim_maintainers'
+[0m02:13:47.201846 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.vulngraph.dim_versions'
+[0m02:13:47.199854 [info ] [Thread-4 (]: 4 of 9 START sql view model vulngraph.stg_libraries_io ......................... [RUN]
+[0m02:13:47.203849 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.vulngraph.stg_github_advisory'
+[0m02:13:47.204847 [debug] [Thread-1 (]: Began compiling node model.vulngraph.dim_maintainers
+[0m02:13:47.205866 [debug] [Thread-2 (]: Began compiling node model.vulngraph.dim_versions
+[0m02:13:47.206847 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.vulngraph.stg_libraries_io'
+[0m02:13:47.206847 [debug] [Thread-3 (]: Began compiling node model.vulngraph.stg_github_advisory
+[0m02:13:47.219099 [debug] [Thread-1 (]: Writing injected SQL for node "model.vulngraph.dim_maintainers"
+[0m02:13:47.222097 [debug] [Thread-2 (]: Writing injected SQL for node "model.vulngraph.dim_versions"
+[0m02:13:47.223092 [debug] [Thread-4 (]: Began compiling node model.vulngraph.stg_libraries_io
+[0m02:13:47.229905 [debug] [Thread-3 (]: Writing injected SQL for node "model.vulngraph.stg_github_advisory"
+[0m02:13:47.236442 [debug] [Thread-4 (]: Writing injected SQL for node "model.vulngraph.stg_libraries_io"
+[0m02:13:47.243102 [debug] [Thread-3 (]: Began executing node model.vulngraph.stg_github_advisory
+[0m02:13:47.244111 [debug] [Thread-1 (]: Began executing node model.vulngraph.dim_maintainers
+[0m02:13:47.255122 [debug] [Thread-2 (]: Began executing node model.vulngraph.dim_versions
+[0m02:13:47.293413 [debug] [Thread-3 (]: Writing runtime sql for node "model.vulngraph.stg_github_advisory"
+[0m02:13:47.294413 [debug] [Thread-4 (]: Began executing node model.vulngraph.stg_libraries_io
+[0m02:13:47.304569 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m02:13:47.310588 [debug] [Thread-2 (]: Writing runtime sql for node "model.vulngraph.dim_versions"
+[0m02:13:47.316595 [debug] [Thread-4 (]: Writing runtime sql for node "model.vulngraph.stg_libraries_io"
+[0m02:13:47.324182 [debug] [Thread-3 (]: On model.vulngraph.stg_github_advisory: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_github_advisory"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_github_advisory`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_github_advisory`
+(
+    batch_id STRING,
+    ghsa_id STRING,
+    cve_id STRING,
+    package_name STRING,
+    ecosystem STRING,
+    severity STRING,
+    cvss_score FLOAT64,
+    patched_version STRING,
+    published_date TIMESTAMP,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(published_date)
+CLUSTER BY ghsa_id;
+
+SELECT
+    ghsa_id,
+    cve_id,
+    package_name,
+    ecosystem,
+    severity,
+    cvss_score,
+    patched_version,
+    published_date
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_github_advisory`;
+
+
+[0m02:13:47.325175 [debug] [Thread-4 (]: On model.vulngraph.stg_libraries_io: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_libraries_io"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_libraries_io`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_libraries_io`
+(
+    batch_id STRING,
+    package_name STRING,
+    dependency_name STRING,
+    ecosystem STRING,
+    version_constraint STRING,
+    depth_level INT64,
+    maintainer_handle STRING,
+    deprecated_flag BOOL,
+    snapshot_date DATE,
+    ingested_at TIMESTAMP
+)
+PARTITION BY snapshot_date
+CLUSTER BY package_name;
+
+SELECT
+    package_name,
+    dependency_name,
+    ecosystem,
+    version_constraint,
+    depth_level,
+    maintainer_handle,
+    deprecated_flag,
+    snapshot_date
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_libraries_io`;
+
+
+[0m02:13:47.326178 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m02:13:47.327177 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m02:13:47.328639 [debug] [Thread-2 (]: On model.vulngraph.dim_versions: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.dim_versions"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`dim_versions`
+  OPTIONS()
+  as MERGE `vulngraph.dim_versions` T
+USING source_data S
+ON T.version_id = S.version_id
+
+WHEN MATCHED THEN
+UPDATE SET
+    semver = S.semver,
+    release_date = S.release_date,
+    yanked_flag = S.yanked_flag
+
+WHEN NOT MATCHED THEN
+INSERT
+(
+    version_id,
+    package_id,
+    semver,
+    release_date,
+    yanked_flag
+)
+VALUES
+(
+    S.version_id,
+    S.package_id,
+    S.semver,
+    S.release_date,
+    S.yanked_flag
+);;
+
+
+[0m02:13:47.332062 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m02:13:47.338061 [debug] [Thread-1 (]: Compilation Error in model dim_maintainers (models\dimensions\dim_maintainers.sql)
+  Trying to create view `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers`, but it currently exists as a table. Either drop `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers` manually, or run dbt with `--full-refresh` and dbt will drop it for you.
+  
+  > in macro bigquery__handle_existing_table (macros\materializations\view.sql)
+  > called by macro handle_existing_table (macros\relations\view\replace.sql)
+  > called by macro bigquery__create_or_replace_view (macros\relations\view\replace.sql)
+  > called by macro materialization_view_bigquery (macros\materializations\view.sql)
+  > called by model dim_maintainers (models\dimensions\dim_maintainers.sql)
+[0m02:13:47.342066 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D45A10D0>]}
+[0m02:13:47.343583 [error] [Thread-1 (]: 1 of 9 ERROR creating sql view model vulngraph.dim_maintainers ................. [[31mERROR[0m in 0.14s]
+[0m02:13:47.344602 [debug] [Thread-1 (]: Finished running node model.vulngraph.dim_maintainers
+[0m02:13:47.345610 [debug] [Thread-1 (]: Began running node model.vulngraph.stg_nvd
+[0m02:13:47.346599 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.dim_maintainers' to be skipped because of status 'error'.  Reason: Compilation Error in model dim_maintainers (models\dimensions\dim_maintainers.sql)
+  Trying to create view `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers`, but it currently exists as a table. Either drop `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers` manually, or run dbt with `--full-refresh` and dbt will drop it for you.
+  
+  > in macro bigquery__handle_existing_table (macros\materializations\view.sql)
+  > called by macro handle_existing_table (macros\relations\view\replace.sql)
+  > called by macro bigquery__create_or_replace_view (macros\relations\view\replace.sql)
+  > called by macro materialization_view_bigquery (macros\materializations\view.sql)
+  > called by model dim_maintainers (models\dimensions\dim_maintainers.sql).
+[0m02:13:47.347615 [info ] [Thread-1 (]: 5 of 9 START sql view model vulngraph.stg_nvd .................................. [RUN]
+[0m02:13:47.349882 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.vulngraph.dim_maintainers, now model.vulngraph.stg_nvd)
+[0m02:13:47.349882 [debug] [Thread-1 (]: Began compiling node model.vulngraph.stg_nvd
+[0m02:13:47.356136 [debug] [Thread-1 (]: Writing injected SQL for node "model.vulngraph.stg_nvd"
+[0m02:13:47.358614 [debug] [Thread-1 (]: Began executing node model.vulngraph.stg_nvd
+[0m02:13:47.362614 [debug] [Thread-1 (]: Writing runtime sql for node "model.vulngraph.stg_nvd"
+[0m02:13:47.364614 [debug] [Thread-1 (]: On model.vulngraph.stg_nvd: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_nvd"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_nvd`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_nvd`
+(
+    batch_id STRING,
+    cve_id STRING,
+    published_date TIMESTAMP,
+    last_modified_date TIMESTAMP,
+    severity_score FLOAT64,
+    cvss_vector STRING,
+    description STRING,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(ingested_at)
+CLUSTER BY cve_id;
+
+SELECT
+    cve_id,
+    published_date,
+    last_modified_date,
+    severity_score,
+    cvss_vector,
+    description
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_nvd`;
+
+
+[0m02:13:47.365617 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:13:48.826445 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:e94fc64b-e774-4834-9f27-2a104d5cc91f&page=queryresults
+[0m02:13:48.828444 [error] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:e94fc64b-e774-4834-9f27-2a104d5cc91f&page=queryresults
+[0m02:13:48.837975 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:708bfa5d-cef1-47d3-aebd-68c076e69cbc&page=queryresults
+[0m02:13:48.838488 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:708bfa5d-cef1-47d3-aebd-68c076e69cbc&page=queryresults
+[0m02:13:48.904937 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:471c9b70-5b6b-4271-846f-c0e01b8df750&page=queryresults
+[0m02:13:48.905957 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:471c9b70-5b6b-4271-846f-c0e01b8df750&page=queryresults
+[0m02:13:49.070492 [debug] [Thread-1 (]: Database Error in model stg_nvd (models\staging\stg_nvd.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_nvd.sql
+[0m02:13:49.071492 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E909E780>]}
+[0m02:13:49.075899 [debug] [Thread-3 (]: Database Error in model stg_github_advisory (models\staging\stg_github_advisory.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_github_advisory.sql
+[0m02:13:49.076897 [error] [Thread-1 (]: 5 of 9 ERROR creating sql view model vulngraph.stg_nvd ......................... [[31mERROR[0m in 1.72s]
+[0m02:13:49.078887 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E909DAF0>]}
+[0m02:13:49.081888 [debug] [Thread-2 (]: Database Error in model dim_versions (models\dimensions\dim_versions.sql)
+  Syntax error: Unexpected keyword MERGE at [6:6]
+  compiled code at target\run\vulngraph\models\dimensions\dim_versions.sql
+[0m02:13:49.082888 [debug] [Thread-1 (]: Finished running node model.vulngraph.stg_nvd
+[0m02:13:49.085057 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E909FC50>]}
+[0m02:13:49.084056 [error] [Thread-3 (]: 3 of 9 ERROR creating sql view model vulngraph.stg_github_advisory ............. [[31mERROR[0m in 1.88s]
+[0m02:13:49.086055 [debug] [Thread-1 (]: Began running node model.vulngraph.stg_osv
+[0m02:13:49.087058 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_nvd' to be skipped because of status 'error'.  Reason: Database Error in model stg_nvd (models\staging\stg_nvd.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_nvd.sql.
+[0m02:13:49.089060 [debug] [Thread-3 (]: Finished running node model.vulngraph.stg_github_advisory
+[0m02:13:49.088067 [error] [Thread-2 (]: 2 of 9 ERROR creating sql view model vulngraph.dim_versions .................... [[31mERROR[0m in 1.88s]
+[0m02:13:49.090468 [info ] [Thread-1 (]: 6 of 9 START sql view model vulngraph.stg_osv .................................. [RUN]
+[0m02:13:49.091479 [debug] [Thread-3 (]: Began running node model.vulngraph.stg_pypi
+[0m02:13:49.093479 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_github_advisory' to be skipped because of status 'error'.  Reason: Database Error in model stg_github_advisory (models\staging\stg_github_advisory.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_github_advisory.sql.
+[0m02:13:49.094490 [debug] [Thread-2 (]: Finished running node model.vulngraph.dim_versions
+[0m02:13:49.095492 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_nvd, now model.vulngraph.stg_osv)
+[0m02:13:49.096485 [info ] [Thread-3 (]: 7 of 9 START sql view model vulngraph.stg_pypi ................................. [RUN]
+[0m02:13:49.097481 [debug] [Thread-2 (]: Began running node model.vulngraph.stg_pypi_packages
+[0m02:13:49.098488 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.dim_versions' to be skipped because of status 'error'.  Reason: Database Error in model dim_versions (models\dimensions\dim_versions.sql)
+  Syntax error: Unexpected keyword MERGE at [6:6]
+  compiled code at target\run\vulngraph\models\dimensions\dim_versions.sql.
+[0m02:13:49.099484 [debug] [Thread-1 (]: Began compiling node model.vulngraph.stg_osv
+[0m02:13:49.099484 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_github_advisory, now model.vulngraph.stg_pypi)
+[0m02:13:49.100480 [info ] [Thread-2 (]: 8 of 9 START sql view model vulngraph.stg_pypi_packages ........................ [RUN]
+[0m02:13:49.106974 [debug] [Thread-1 (]: Writing injected SQL for node "model.vulngraph.stg_osv"
+[0m02:13:49.108990 [debug] [Thread-3 (]: Began compiling node model.vulngraph.stg_pypi
+[0m02:13:49.108990 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.vulngraph.dim_versions, now model.vulngraph.stg_pypi_packages)
+[0m02:13:49.113989 [debug] [Thread-3 (]: Writing injected SQL for node "model.vulngraph.stg_pypi"
+[0m02:13:49.114989 [debug] [Thread-2 (]: Began compiling node model.vulngraph.stg_pypi_packages
+[0m02:13:49.117988 [debug] [Thread-2 (]: Writing injected SQL for node "model.vulngraph.stg_pypi_packages"
+[0m02:13:49.119290 [debug] [Thread-1 (]: Began executing node model.vulngraph.stg_osv
+[0m02:13:49.126726 [debug] [Thread-1 (]: Writing runtime sql for node "model.vulngraph.stg_osv"
+[0m02:13:49.128726 [debug] [Thread-3 (]: Began executing node model.vulngraph.stg_pypi
+[0m02:13:49.129735 [debug] [Thread-2 (]: Began executing node model.vulngraph.stg_pypi_packages
+[0m02:13:49.136910 [debug] [Thread-3 (]: Writing runtime sql for node "model.vulngraph.stg_pypi"
+[0m02:13:49.146435 [debug] [Thread-2 (]: Writing runtime sql for node "model.vulngraph.stg_pypi_packages"
+[0m02:13:49.148709 [debug] [Thread-1 (]: On model.vulngraph.stg_osv: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_osv"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_osv`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_osv`
+(
+    batch_id STRING,
+    vuln_id STRING,
+    ecosystem STRING,
+    package_name STRING,
+    severity_score FLOAT64,
+    severity_bucket STRING,
+    affected_version STRING,
+    fixed_version STRING,
+    published_date TIMESTAMP,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(published_date)
+CLUSTER BY vuln_id;
+
+SELECT
+    vuln_id,
+    ecosystem,
+    package_name,
+    severity_score,
+    severity_bucket,
+    affected_version,
+    fixed_version,
+    published_date
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_osv`;
+
+
+[0m02:13:49.150723 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:13:49.155077 [debug] [Thread-3 (]: On model.vulngraph.stg_pypi: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_pypi"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_pypi`
+  OPTIONS()
+  as SELECT
+    package_id,
+    name,
+    ecosystem,
+    latest_version,
+    maintainer_id,
+    is_deprecated
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_packages`;
+
+
+[0m02:13:49.157396 [debug] [Thread-2 (]: On model.vulngraph.stg_pypi_packages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_pypi_packages"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_packages`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_pypi_packages`
+(
+    batch_id STRING,
+    package_id STRING,
+    name STRING,
+    ecosystem STRING,
+    latest_version STRING,
+    maintainer_id STRING,
+    is_deprecated BOOL,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(ingested_at)
+CLUSTER BY package_id;;
+
+
+[0m02:13:49.158663 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m02:13:49.159682 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m02:13:49.176999 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:9ce186bd-3896-47bb-95f2-0e6e5c0dfe3d&page=queryresults
+[0m02:13:49.178408 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:9ce186bd-3896-47bb-95f2-0e6e5c0dfe3d&page=queryresults
+[0m02:13:49.191062 [debug] [Thread-4 (]: Database Error in model stg_libraries_io (models\staging\stg_libraries_io.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_libraries_io.sql
+[0m02:13:49.193076 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E94D9EB0>]}
+[0m02:13:49.195075 [error] [Thread-4 (]: 4 of 9 ERROR creating sql view model vulngraph.stg_libraries_io ................ [[31mERROR[0m in 1.99s]
+[0m02:13:49.196857 [debug] [Thread-4 (]: Finished running node model.vulngraph.stg_libraries_io
+[0m02:13:49.197872 [debug] [Thread-4 (]: Began running node model.vulngraph.stg_pypi_versions
+[0m02:13:49.198868 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_libraries_io' to be skipped because of status 'error'.  Reason: Database Error in model stg_libraries_io (models\staging\stg_libraries_io.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_libraries_io.sql.
+[0m02:13:49.200879 [info ] [Thread-4 (]: 9 of 9 START sql view model vulngraph.stg_pypi_versions ........................ [RUN]
+[0m02:13:49.201868 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_libraries_io, now model.vulngraph.stg_pypi_versions)
+[0m02:13:49.203055 [debug] [Thread-4 (]: Began compiling node model.vulngraph.stg_pypi_versions
+[0m02:13:49.207485 [debug] [Thread-4 (]: Writing injected SQL for node "model.vulngraph.stg_pypi_versions"
+[0m02:13:49.209756 [debug] [Thread-4 (]: Began executing node model.vulngraph.stg_pypi_versions
+[0m02:13:49.218395 [debug] [Thread-4 (]: Writing runtime sql for node "model.vulngraph.stg_pypi_versions"
+[0m02:13:49.221588 [debug] [Thread-4 (]: On model.vulngraph.stg_pypi_versions: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_pypi_versions"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_versions`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_pypi_versions`
+(
+    batch_id STRING,
+    version_id STRING,
+    package_id STRING,
+    semver STRING,
+    release_date DATE,
+    yanked_flag BOOL,
+    ingested_at TIMESTAMP
+)
+PARTITION BY release_date
+CLUSTER BY package_id;;
+
+
+[0m02:13:49.223273 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m02:13:50.685957 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:c57bf5fe-4799-496e-9d2f-5e9878f4691e&page=queryresults
+[0m02:13:50.686956 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:c57bf5fe-4799-496e-9d2f-5e9878f4691e&page=queryresults
+[0m02:13:50.693497 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4a512c90-732b-4ac5-b5d5-7ac5440c8700&page=queryresults
+[0m02:13:50.694627 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:2a52e053-7d23-47dd-8c3a-1aa41701d020&page=queryresults
+[0m02:13:50.694627 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4a512c90-732b-4ac5-b5d5-7ac5440c8700&page=queryresults
+[0m02:13:50.695637 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:2a52e053-7d23-47dd-8c3a-1aa41701d020&page=queryresults
+[0m02:13:50.706158 [debug] [Thread-2 (]: Database Error in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_packages.sql
+[0m02:13:50.707146 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E951C740>]}
+[0m02:13:50.708147 [error] [Thread-2 (]: 8 of 9 ERROR creating sql view model vulngraph.stg_pypi_packages ............... [[31mERROR[0m in 1.60s]
+[0m02:13:50.710149 [debug] [Thread-2 (]: Finished running node model.vulngraph.stg_pypi_packages
+[0m02:13:50.711148 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_pypi_packages' to be skipped because of status 'error'.  Reason: Database Error in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_packages.sql.
+[0m02:13:50.714376 [debug] [Thread-4 (]: Database Error in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_versions.sql
+[0m02:13:50.717378 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E951C740>]}
+[0m02:13:50.720371 [debug] [Thread-1 (]: Database Error in model stg_osv (models\staging\stg_osv.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_osv.sql
+[0m02:13:50.718372 [error] [Thread-4 (]: 9 of 9 ERROR creating sql view model vulngraph.stg_pypi_versions ............... [[31mERROR[0m in 1.51s]
+[0m02:13:50.722371 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E952BDD0>]}
+[0m02:13:50.723375 [debug] [Thread-4 (]: Finished running node model.vulngraph.stg_pypi_versions
+[0m02:13:50.724577 [error] [Thread-1 (]: 6 of 9 ERROR creating sql view model vulngraph.stg_osv ......................... [[31mERROR[0m in 1.63s]
+[0m02:13:50.725396 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_pypi_versions' to be skipped because of status 'error'.  Reason: Database Error in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_versions.sql.
+[0m02:13:50.726405 [debug] [Thread-1 (]: Finished running node model.vulngraph.stg_osv
+[0m02:13:50.728406 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_osv' to be skipped because of status 'error'.  Reason: Database Error in model stg_osv (models\staging\stg_osv.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_osv.sql.
+[0m02:13:50.839785 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:a1528854-182b-440b-bb0b-59d41005bc01&page=queryresults
+[0m02:13:50.840784 [error] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:a1528854-182b-440b-bb0b-59d41005bc01&page=queryresults
+[0m02:13:50.847602 [debug] [Thread-3 (]: Database Error in model stg_pypi (models\staging\stg_pypi.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\staging\stg_pypi.sql
+[0m02:13:50.849057 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e9944ac-447a-4e7a-a289-e3eda04b54fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E952AF00>]}
+[0m02:13:50.850047 [error] [Thread-3 (]: 7 of 9 ERROR creating sql view model vulngraph.stg_pypi ........................ [[31mERROR[0m in 1.75s]
+[0m02:13:50.852044 [debug] [Thread-3 (]: Finished running node model.vulngraph.stg_pypi
+[0m02:13:50.853045 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_pypi' to be skipped because of status 'error'.  Reason: Database Error in model stg_pypi (models\staging\stg_pypi.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\staging\stg_pypi.sql.
+[0m02:13:50.854044 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:13:50.855044 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:13:50.856042 [debug] [MainThread]: Connection 'list_erudite-river-423507-n3' was properly closed.
+[0m02:13:50.857045 [debug] [MainThread]: Connection 'list_erudite-river-423507-n3_vulngraph' was properly closed.
+[0m02:13:50.857045 [debug] [MainThread]: Connection 'model.vulngraph.stg_osv' was properly closed.
+[0m02:13:50.858057 [debug] [MainThread]: Connection 'model.vulngraph.stg_pypi_packages' was properly closed.
+[0m02:13:50.859068 [debug] [MainThread]: Connection 'model.vulngraph.stg_pypi' was properly closed.
+[0m02:13:50.859068 [debug] [MainThread]: Connection 'model.vulngraph.stg_pypi_versions' was properly closed.
+[0m02:13:50.860067 [info ] [MainThread]: 
+[0m02:13:50.861066 [info ] [MainThread]: Finished running 9 view models in 0 hours 0 minutes and 8.08 seconds (8.08s).
+[0m02:13:50.864081 [debug] [MainThread]: Command end result
+[0m02:13:50.920861 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:13:50.924874 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:13:50.933423 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt\target\run_results.json
+[0m02:13:50.934425 [info ] [MainThread]: 
+[0m02:13:50.935411 [info ] [MainThread]: [31mCompleted with 9 errors, 0 partial successes, and 0 warnings:[0m
+[0m02:13:50.935411 [info ] [MainThread]: 
+[0m02:13:50.936422 [error] [MainThread]: [31mFailure in model dim_maintainers (models\dimensions\dim_maintainers.sql)[0m
+[0m02:13:50.937425 [error] [MainThread]:   Compilation Error in model dim_maintainers (models\dimensions\dim_maintainers.sql)
+  Trying to create view `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers`, but it currently exists as a table. Either drop `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers` manually, or run dbt with `--full-refresh` and dbt will drop it for you.
+  
+  > in macro bigquery__handle_existing_table (macros\materializations\view.sql)
+  > called by macro handle_existing_table (macros\relations\view\replace.sql)
+  > called by macro bigquery__create_or_replace_view (macros\relations\view\replace.sql)
+  > called by macro materialization_view_bigquery (macros\materializations\view.sql)
+  > called by model dim_maintainers (models\dimensions\dim_maintainers.sql)
+[0m02:13:50.938410 [info ] [MainThread]: 
+[0m02:13:50.939411 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\dimensions\dim_maintainers.sql
+[0m02:13:50.940410 [info ] [MainThread]: 
+[0m02:13:50.940410 [error] [MainThread]: [31mFailure in model stg_nvd (models\staging\stg_nvd.sql)[0m
+[0m02:13:50.942158 [error] [MainThread]:   Database Error in model stg_nvd (models\staging\stg_nvd.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_nvd.sql
+[0m02:13:50.942424 [info ] [MainThread]: 
+[0m02:13:50.943423 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_nvd.sql
+[0m02:13:50.943423 [info ] [MainThread]: 
+[0m02:13:50.944527 [error] [MainThread]: [31mFailure in model stg_github_advisory (models\staging\stg_github_advisory.sql)[0m
+[0m02:13:50.945713 [error] [MainThread]:   Database Error in model stg_github_advisory (models\staging\stg_github_advisory.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_github_advisory.sql
+[0m02:13:50.946687 [info ] [MainThread]: 
+[0m02:13:50.947195 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_github_advisory.sql
+[0m02:13:50.948220 [info ] [MainThread]: 
+[0m02:13:50.948220 [error] [MainThread]: [31mFailure in model dim_versions (models\dimensions\dim_versions.sql)[0m
+[0m02:13:50.949216 [error] [MainThread]:   Database Error in model dim_versions (models\dimensions\dim_versions.sql)
+  Syntax error: Unexpected keyword MERGE at [6:6]
+  compiled code at target\run\vulngraph\models\dimensions\dim_versions.sql
+[0m02:13:50.950216 [info ] [MainThread]: 
+[0m02:13:50.951215 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\dimensions\dim_versions.sql
+[0m02:13:50.952205 [info ] [MainThread]: 
+[0m02:13:50.952205 [error] [MainThread]: [31mFailure in model stg_libraries_io (models\staging\stg_libraries_io.sql)[0m
+[0m02:13:50.954217 [error] [MainThread]:   Database Error in model stg_libraries_io (models\staging\stg_libraries_io.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_libraries_io.sql
+[0m02:13:50.954217 [info ] [MainThread]: 
+[0m02:13:50.955220 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_libraries_io.sql
+[0m02:13:50.956217 [info ] [MainThread]: 
+[0m02:13:50.957204 [error] [MainThread]: [31mFailure in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)[0m
+[0m02:13:50.958218 [error] [MainThread]:   Database Error in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_packages.sql
+[0m02:13:50.958218 [info ] [MainThread]: 
+[0m02:13:50.959230 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_pypi_packages.sql
+[0m02:13:50.960233 [info ] [MainThread]: 
+[0m02:13:50.961229 [error] [MainThread]: [31mFailure in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)[0m
+[0m02:13:50.962233 [error] [MainThread]:   Database Error in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_versions.sql
+[0m02:13:50.963246 [info ] [MainThread]: 
+[0m02:13:50.964228 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_pypi_versions.sql
+[0m02:13:50.964228 [info ] [MainThread]: 
+[0m02:13:50.965243 [error] [MainThread]: [31mFailure in model stg_osv (models\staging\stg_osv.sql)[0m
+[0m02:13:50.966242 [error] [MainThread]:   Database Error in model stg_osv (models\staging\stg_osv.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_osv.sql
+[0m02:13:50.967241 [info ] [MainThread]: 
+[0m02:13:50.968242 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_osv.sql
+[0m02:13:50.968242 [info ] [MainThread]: 
+[0m02:13:50.969242 [error] [MainThread]: [31mFailure in model stg_pypi (models\staging\stg_pypi.sql)[0m
+[0m02:13:50.970234 [error] [MainThread]:   Database Error in model stg_pypi (models\staging\stg_pypi.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\staging\stg_pypi.sql
+[0m02:13:50.971243 [info ] [MainThread]: 
+[0m02:13:50.972228 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_pypi.sql
+[0m02:13:50.972228 [info ] [MainThread]: 
+[0m02:13:50.973751 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=9 SKIP=0 NO-OP=0 TOTAL=9
+[0m02:13:50.974762 [debug] [MainThread]: Command `dbt run` failed at 02:13:50.974762 after 12.71 seconds
+[0m02:13:50.975784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D4C8A2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D4C8AC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4E7D650A0>]}
+[0m02:13:50.976778 [debug] [MainThread]: Flushing usage events
+[0m02:13:53.349645 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:22:03.591437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BA14BC920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B9E7FC230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BA1477CB0>]}
+
+
+============================== 02:22:03.598714 | 97f96c3a-e0da-4dea-b8e0-6cd5219f65fa ==============================
+[0m02:22:03.598714 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:22:03.599732 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt parse --project-dir dbt --profiles-dir dbt', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:22:05.620433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '97f96c3a-e0da-4dea-b8e0-6cd5219f65fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB1C0E540>]}
+[0m02:22:05.731154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '97f96c3a-e0da-4dea-b8e0-6cd5219f65fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB3D8A930>]}
+[0m02:22:05.732153 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:22:06.417108 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m02:22:06.675418 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m02:22:06.677212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '97f96c3a-e0da-4dea-b8e0-6cd5219f65fa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB4627620>]}
+[0m02:22:08.678415 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two sources with the name "raw_stg_nvd".
+  
+  Since these resources have the same name, dbt will be unable to find the correct resource
+  when looking for source("raw", "stg_nvd").
+  
+  To fix this, change the name of one of these resources:
+  - source.vulngraph.raw.stg_nvd (models\staging\staging_sources.yml)
+  - source.vulngraph.raw.stg_nvd (models\schema.yml)
+[0m02:22:08.680399 [debug] [MainThread]: Command `dbt parse` failed at 02:22:08.680399 after 5.30 seconds
+[0m02:22:08.680399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BA17BD070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB47AD010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB471CE00>]}
+[0m02:22:08.681697 [debug] [MainThread]: Flushing usage events
+[0m02:22:10.784992 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:27:04.211770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0C1032AB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0C192B860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0C12D3980>]}
+
+
+============================== 02:27:04.217270 | bf3eacfa-eafa-4aef-84ac-4b5f7b7c4b9c ==============================
+[0m02:27:04.217270 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:27:04.219270 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt parse --project-dir dbt --profiles-dir dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:27:05.556784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bf3eacfa-eafa-4aef-84ac-4b5f7b7c4b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0D1DDDC70>]}
+[0m02:27:05.656015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bf3eacfa-eafa-4aef-84ac-4b5f7b7c4b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0D3D26DE0>]}
+[0m02:27:05.657012 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:27:06.179770 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m02:27:06.458704 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m02:27:06.459690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'bf3eacfa-eafa-4aef-84ac-4b5f7b7c4b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0D4417AA0>]}
+[0m02:27:08.375762 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.vulngraph.marts
+[0m02:27:08.388758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bf3eacfa-eafa-4aef-84ac-4b5f7b7c4b9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0D44E04A0>]}
+[0m02:27:08.397704 [info ] [MainThread]: Performance info: dbt\target\perf_info.json
+[0m02:27:08.540501 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:27:08.551672 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:27:08.552665 [debug] [MainThread]: Command `dbt parse` succeeded at 02:27:08.552665 after 4.55 seconds
+[0m02:27:08.553688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0C1762B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0C0D41310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0D4350BF0>]}
+[0m02:27:08.554688 [debug] [MainThread]: Flushing usage events
+[0m02:27:10.498495 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:33:28.368441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC63C58380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC66385F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC663848C0>]}
+
+
+============================== 02:33:28.376527 | 7d1320ec-138c-4f80-a714-045401cf6b80 ==============================
+[0m02:33:28.376527 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:33:28.378545 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\KIIT\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt deps --project-dir dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:33:28.605952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7d1320ec-138c-4f80-a714-045401cf6b80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC66F8ACC0>]}
+[0m02:33:28.652623 [debug] [MainThread]: Set downloads directory='C:\Users\KIIT\AppData\Local\Temp\dbt-downloads-dx731bjf'
+[0m02:33:28.653646 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m02:33:29.335953 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m02:33:29.337955 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m02:33:29.935929 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m02:33:29.950089 [info ] [MainThread]: Updating lock file in file path: C:\Users\KIIT\Desktop\vulngraph\dbt/package-lock.yml
+[0m02:33:29.955094 [debug] [MainThread]: Set downloads directory='C:\Users\KIIT\AppData\Local\Temp\dbt-downloads-gsvqnr4d'
+[0m02:33:29.959532 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m02:33:31.249389 [info ] [MainThread]: Installed from version 1.3.0
+[0m02:33:31.251392 [info ] [MainThread]: Updated version available: 1.3.3
+[0m02:33:31.252387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7d1320ec-138c-4f80-a714-045401cf6b80', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC682DECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC66FDB1A0>]}
+[0m02:33:31.252387 [info ] [MainThread]: 
+[0m02:33:31.253382 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m02:33:31.256382 [debug] [MainThread]: Command `dbt deps` succeeded at 02:33:31.256382 after 3.12 seconds
+[0m02:33:31.257775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC6644E990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC6644EA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC6682E9C0>]}
+[0m02:33:31.258792 [debug] [MainThread]: Flushing usage events
+[0m02:33:33.221240 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:34:56.864334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210A8DF200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022107A5C170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210AD59580>]}
+
+
+============================== 02:34:56.893278 | 2516f771-a333-4017-9de8-87c95fde4052 ==============================
+[0m02:34:56.893278 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:34:56.898307 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'invocation_command': 'dbt debug --project-dir dbt --profiles-dir dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:34:57.041678 [info ] [MainThread]: dbt version: 1.11.11
+[0m02:34:57.046965 [info ] [MainThread]: python version: 3.12.5
+[0m02:34:57.051011 [info ] [MainThread]: python path: C:\Users\KIIT\Desktop\vulngraph\.venv\Scripts\python.exe
+[0m02:34:57.064506 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m02:35:03.416821 [info ] [MainThread]: Using profiles dir at dbt
+[0m02:35:03.420217 [info ] [MainThread]: Using profiles.yml file at dbt\profiles.yml
+[0m02:35:03.423239 [info ] [MainThread]: Using dbt_project.yml file at dbt\dbt_project.yml
+[0m02:35:03.426239 [info ] [MainThread]: adapter type: bigquery
+[0m02:35:03.429242 [info ] [MainThread]: adapter version: 1.11.1
+[0m02:35:04.074050 [info ] [MainThread]: Configuration:
+[0m02:35:04.079813 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:35:04.082808 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m02:35:04.087811 [info ] [MainThread]: Required dependencies:
+[0m02:35:04.091352 [debug] [MainThread]: Executing "git --help"
+[0m02:35:04.332247 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:35:04.335219 [debug] [MainThread]: STDERR: "b''"
+[0m02:35:04.337768 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:35:04.340883 [info ] [MainThread]: Connection:
+[0m02:35:04.343686 [info ] [MainThread]:   method: oauth
+[0m02:35:04.345712 [info ] [MainThread]:   database: erudite-river-423507-n3
+[0m02:35:04.347861 [info ] [MainThread]:   execution_project: erudite-river-423507-n3
+[0m02:35:04.350239 [info ] [MainThread]:   schema: vulngraph
+[0m02:35:04.352271 [info ] [MainThread]:   location: US
+[0m02:35:04.354266 [info ] [MainThread]:   priority: None
+[0m02:35:04.357265 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m02:35:04.360263 [info ] [MainThread]:   impersonate_service_account: None
+[0m02:35:04.363264 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m02:35:04.368267 [info ] [MainThread]:   job_retries: 1
+[0m02:35:04.370263 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m02:35:04.372266 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m02:35:04.378268 [info ] [MainThread]:   timeout_seconds: 300
+[0m02:35:04.381266 [info ] [MainThread]:   client_id: None
+[0m02:35:04.385658 [info ] [MainThread]:   token_uri: None
+[0m02:35:04.388691 [info ] [MainThread]:   compute_region: None
+[0m02:35:04.391721 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m02:35:04.403535 [info ] [MainThread]:   gcs_bucket: None
+[0m02:35:04.406831 [info ] [MainThread]:   dataproc_batch: None
+[0m02:35:04.411857 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:35:06.491502 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m02:35:06.494757 [debug] [MainThread]: On debug: select 1 as id
+[0m02:35:06.496783 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:35:16.366991 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:58ec1d97-616e-4cf8-ac01-1c36130fa522&page=queryresults
+[0m02:35:16.971821 [debug] [MainThread]: SQL status: OK in 0.604 seconds
+[0m02:35:17.596699 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m02:35:17.597813 [info ] [MainThread]: [32mAll checks passed![0m
+[0m02:35:17.599168 [debug] [MainThread]: Command `dbt debug` succeeded at 02:35:17.599168 after 21.48 seconds
+[0m02:35:17.600177 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:35:17.600177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210A4E4440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210A843EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210A7B69C0>]}
+[0m02:35:17.601175 [debug] [MainThread]: Flushing usage events
+[0m02:35:19.439107 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:35:33.666337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538C5696A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538BD6D130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538BD6D340>]}
+
+
+============================== 02:35:33.671328 | 396bc263-b6ab-467e-b121-8c5873469289 ==============================
+[0m02:35:33.671328 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:35:33.672683 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --project-dir dbt --profiles-dir dbt', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:35:35.368371 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539C6C4B00>]}
+[0m02:35:35.501804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538BFEC7A0>]}
+[0m02:35:35.502801 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:35:36.035156 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m02:35:36.276398 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m02:35:36.277399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539F0B6630>]}
+[0m02:35:38.306716 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `dbt_utils.unique_combination_of_columns`
+defined on 'mart_patch_velocity' in package 'vulngraph'
+(models\marts\schema.yml). Arguments to generic tests should be nested under the
+`arguments` property.
+[0m02:35:38.306716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539F184770>]}
+[0m02:35:38.727957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539EF1FB30>]}
+[0m02:35:38.889927 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:35:38.895457 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:35:38.923453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A05B52E0>]}
+[0m02:35:38.924847 [info ] [MainThread]: Found 16 models, 9 data tests, 7 sources, 665 macros
+[0m02:35:38.925856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539F0D3620>]}
+[0m02:35:38.930135 [info ] [MainThread]: 
+[0m02:35:38.930891 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m02:35:38.930891 [info ] [MainThread]: 
+[0m02:35:38.931906 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m02:35:38.937916 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_erudite-river-423507-n3'
+[0m02:35:38.938926 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:35:42.597352 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_erudite-river-423507-n3_vulngraph'
+[0m02:35:42.598339 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:35:43.504364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539EB43B90>]}
+[0m02:35:43.505354 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:35:43.523507 [debug] [Thread-1 (]: Began running node model.vulngraph.dim_maintainers
+[0m02:35:43.524491 [debug] [Thread-2 (]: Began running node model.vulngraph.dim_packages
+[0m02:35:43.526498 [debug] [Thread-3 (]: Began running node model.vulngraph.dim_time
+[0m02:35:43.527497 [debug] [Thread-4 (]: Began running node model.vulngraph.dim_versions
+[0m02:35:43.524491 [info ] [Thread-1 (]: 1 of 16 START sql table model vulngraph.dim_maintainers ........................ [RUN]
+[0m02:35:43.528670 [info ] [Thread-2 (]: 2 of 16 START sql table model vulngraph.dim_packages ........................... [RUN]
+[0m02:35:43.532491 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.vulngraph.dim_maintainers'
+[0m02:35:43.529507 [info ] [Thread-3 (]: 3 of 16 START sql table model vulngraph.dim_time ............................... [RUN]
+[0m02:35:43.533499 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.vulngraph.dim_packages'
+[0m02:35:43.530492 [info ] [Thread-4 (]: 4 of 16 START sql table model vulngraph.dim_versions ........................... [RUN]
+[0m02:35:43.534522 [debug] [Thread-1 (]: Began compiling node model.vulngraph.dim_maintainers
+[0m02:35:43.534522 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.vulngraph.dim_time'
+[0m02:35:43.535519 [debug] [Thread-2 (]: Began compiling node model.vulngraph.dim_packages
+[0m02:35:43.536511 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.vulngraph.dim_versions'
+[0m02:35:43.553050 [debug] [Thread-1 (]: Writing injected SQL for node "model.vulngraph.dim_maintainers"
+[0m02:35:43.554043 [debug] [Thread-3 (]: Began compiling node model.vulngraph.dim_time
+[0m02:35:43.562816 [debug] [Thread-2 (]: Writing injected SQL for node "model.vulngraph.dim_packages"
+[0m02:35:43.564811 [debug] [Thread-4 (]: Began compiling node model.vulngraph.dim_versions
+[0m02:35:43.569817 [debug] [Thread-3 (]: Writing injected SQL for node "model.vulngraph.dim_time"
+[0m02:35:43.578101 [debug] [Thread-4 (]: Writing injected SQL for node "model.vulngraph.dim_versions"
+[0m02:35:43.579102 [debug] [Thread-1 (]: Began executing node model.vulngraph.dim_maintainers
+[0m02:35:43.580453 [debug] [Thread-2 (]: Began executing node model.vulngraph.dim_packages
+[0m02:35:43.599487 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m02:35:43.620664 [debug] [Thread-3 (]: Began executing node model.vulngraph.dim_time
+[0m02:35:43.640991 [debug] [Thread-2 (]: Writing runtime sql for node "model.vulngraph.dim_packages"
+[0m02:35:43.641989 [debug] [Thread-4 (]: Began executing node model.vulngraph.dim_versions
+[0m02:35:43.648988 [debug] [Thread-3 (]: Writing runtime sql for node "model.vulngraph.dim_time"
+[0m02:35:43.655653 [debug] [Thread-4 (]: Writing runtime sql for node "model.vulngraph.dim_versions"
+[0m02:35:43.657650 [debug] [Thread-2 (]: On model.vulngraph.dim_packages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.dim_packages"} */
+
+  
+    
+
+    create or replace table `erudite-river-423507-n3`.`vulngraph`.`dim_packages`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH latest_package_state AS (
+
+    SELECT
+        package_id,
+        name,
+        ecosystem,
+        latest_version,
+        maintainer_id,
+        is_deprecated,
+
+        ROW_NUMBER() OVER (
+            PARTITION BY package_id
+            ORDER BY ingested_at DESC
+        ) AS rn
+
+    FROM `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_packages`
+
+)
+
+SELECT
+    package_id,
+    name,
+    ecosystem,
+    latest_version,
+    maintainer_id,
+    is_deprecated
+FROM latest_package_state
+WHERE rn = 1
+    );
+  
+[0m02:35:43.659046 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m02:35:43.661119 [debug] [Thread-3 (]: On model.vulngraph.dim_time: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.dim_time"} */
+
+  
+    
+
+    create or replace table `erudite-river-423507-n3`.`vulngraph`.`dim_time`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+WITH dates AS (
+
+    SELECT day AS date
+    FROM UNNEST(
+        GENERATE_DATE_ARRAY(
+            DATE('2020-01-01'),
+            DATE('2035-12-31')
+        )
+    ) AS day
+
+)
+
+SELECT
+    CAST(FORMAT_DATE('%Y%m%d', date) AS INT64) AS date_id,
+    date,
+    EXTRACT(WEEK FROM date) AS week,
+    EXTRACT(MONTH FROM date) AS month,
+    EXTRACT(QUARTER FROM date) AS quarter,
+    EXTRACT(YEAR FROM date) AS year
+FROM dates
+    );
+  
+[0m02:35:43.662132 [debug] [Thread-4 (]: On model.vulngraph.dim_versions: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.dim_versions"} */
+
+  
+    
+
+    create or replace table `erudite-river-423507-n3`.`vulngraph`.`dim_versions`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      MERGE `vulngraph.dim_versions` T
+USING source_data S
+ON T.version_id = S.version_id
+
+WHEN MATCHED THEN
+UPDATE SET
+    semver = S.semver,
+    release_date = S.release_date,
+    yanked_flag = S.yanked_flag
+
+WHEN NOT MATCHED THEN
+INSERT
+(
+    version_id,
+    package_id,
+    semver,
+    release_date,
+    yanked_flag
+)
+VALUES
+(
+    S.version_id,
+    S.package_id,
+    S.semver,
+    S.release_date,
+    S.yanked_flag
+);
+
+
+
+SELECT DISTINCT
+    version_id,
+    package_id,
+    semver,
+    release_date,
+    yanked_flag
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_versions`
+    );
+  
+[0m02:35:43.663133 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m02:35:43.664169 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m02:35:44.814796 [debug] [Thread-1 (]: Hard refreshing `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers` because it is not replaceable
+[0m02:35:45.049337 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:1d2d9339-4445-4719-89ce-5a1aa00011fe&page=queryresults
+[0m02:35:45.050338 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:1d2d9339-4445-4719-89ce-5a1aa00011fe&page=queryresults
+[0m02:35:45.075670 [debug] [Thread-2 (]: Database Error in model dim_packages (models\dimensions\dim_packages.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\dimensions\dim_packages.sql
+[0m02:35:45.082028 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A047FF80>]}
+[0m02:35:45.083021 [error] [Thread-2 (]: 2 of 16 ERROR creating sql table model vulngraph.dim_packages .................. [[31mERROR[0m in 1.54s]
+[0m02:35:45.085020 [debug] [Thread-2 (]: Finished running node model.vulngraph.dim_packages
+[0m02:35:45.086532 [debug] [Thread-2 (]: Began running node model.vulngraph.fact_dependency_graph
+[0m02:35:45.089091 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.dim_packages' to be skipped because of status 'error'.  Reason: Database Error in model dim_packages (models\dimensions\dim_packages.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\dimensions\dim_packages.sql.
+[0m02:35:45.086532 [info ] [Thread-2 (]: 5 of 16 START sql table model vulngraph.fact_dependency_graph .................. [RUN]
+[0m02:35:45.092094 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.vulngraph.dim_packages, now model.vulngraph.fact_dependency_graph)
+[0m02:35:45.093087 [debug] [Thread-2 (]: Began compiling node model.vulngraph.fact_dependency_graph
+[0m02:35:45.101550 [debug] [Thread-2 (]: Writing injected SQL for node "model.vulngraph.fact_dependency_graph"
+[0m02:35:45.103564 [debug] [Thread-2 (]: Began executing node model.vulngraph.fact_dependency_graph
+[0m02:35:45.110565 [debug] [Thread-2 (]: Writing runtime sql for node "model.vulngraph.fact_dependency_graph"
+[0m02:35:45.113912 [debug] [Thread-2 (]: On model.vulngraph.fact_dependency_graph: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.fact_dependency_graph"} */
+
+  
+    
+
+    create or replace table `erudite-river-423507-n3`.`vulngraph`.`fact_dependency_graph`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    MD5(package_name) AS dependent_package_id,
+
+    MD5(dependency_name) AS dependency_id,
+
+    version_constraint,
+
+    ecosystem,
+
+    depth_level,
+
+    snapshot_date
+
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_libraries_io`
+    );
+  
+[0m02:35:45.115385 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m02:35:45.135989 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:95e9a48d-4738-46ba-9073-cfe7d0341aa0&page=queryresults
+[0m02:35:45.136990 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:95e9a48d-4738-46ba-9073-cfe7d0341aa0&page=queryresults
+[0m02:35:45.144449 [debug] [Thread-4 (]: Database Error in model dim_versions (models\dimensions\dim_versions.sql)
+  Syntax error: Unexpected keyword MERGE at [14:7]
+  compiled code at target\run\vulngraph\models\dimensions\dim_versions.sql
+[0m02:35:45.145457 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A069AF30>]}
+[0m02:35:45.147475 [error] [Thread-4 (]: 4 of 16 ERROR creating sql table model vulngraph.dim_versions .................. [[31mERROR[0m in 1.61s]
+[0m02:35:45.148449 [debug] [Thread-4 (]: Finished running node model.vulngraph.dim_versions
+[0m02:35:45.149819 [debug] [Thread-4 (]: Began running node model.vulngraph.stg_github_advisory
+[0m02:35:45.150830 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.dim_versions' to be skipped because of status 'error'.  Reason: Database Error in model dim_versions (models\dimensions\dim_versions.sql)
+  Syntax error: Unexpected keyword MERGE at [14:7]
+  compiled code at target\run\vulngraph\models\dimensions\dim_versions.sql.
+[0m02:35:45.150830 [info ] [Thread-4 (]: 6 of 16 START sql view model vulngraph.stg_github_advisory ..................... [RUN]
+[0m02:35:45.152334 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.vulngraph.dim_versions, now model.vulngraph.stg_github_advisory)
+[0m02:35:45.152334 [debug] [Thread-4 (]: Began compiling node model.vulngraph.stg_github_advisory
+[0m02:35:45.160850 [debug] [Thread-4 (]: Writing injected SQL for node "model.vulngraph.stg_github_advisory"
+[0m02:35:45.164861 [debug] [Thread-4 (]: Began executing node model.vulngraph.stg_github_advisory
+[0m02:35:45.293831 [debug] [Thread-1 (]: Writing runtime sql for node "model.vulngraph.dim_maintainers"
+[0m02:35:45.332912 [debug] [Thread-4 (]: Writing runtime sql for node "model.vulngraph.stg_github_advisory"
+[0m02:35:45.334921 [debug] [Thread-1 (]: On model.vulngraph.dim_maintainers: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.dim_maintainers"} */
+
+  
+    
+
+    create or replace table `erudite-river-423507-n3`.`vulngraph`.`dim_maintainers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      MERGE `vulngraph.dim_maintainers` T
+USING source_data S
+ON T.maintainer_id = S.maintainer_id
+
+WHEN MATCHED THEN
+UPDATE SET
+    handle = S.handle,
+    org = S.org,
+    verified = S.verified
+
+WHEN NOT MATCHED THEN
+INSERT
+(
+    maintainer_id,
+    handle,
+    org,
+    verified
+)
+VALUES
+(
+    S.maintainer_id,
+    S.handle,
+    S.org,
+    S.verified
+);
+
+
+
+SELECT DISTINCT
+    maintainer_id,
+    handle,
+    org,
+    verified
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_maintainers`
+    );
+  
+[0m02:35:45.336913 [debug] [Thread-4 (]: On model.vulngraph.stg_github_advisory: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_github_advisory"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_github_advisory`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_github_advisory`
+(
+    batch_id STRING,
+    ghsa_id STRING,
+    cve_id STRING,
+    package_name STRING,
+    ecosystem STRING,
+    severity STRING,
+    cvss_score FLOAT64,
+    patched_version STRING,
+    published_date TIMESTAMP,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(published_date)
+CLUSTER BY ghsa_id;
+
+SELECT
+    ghsa_id,
+    cve_id,
+    package_name,
+    ecosystem,
+    severity,
+    cvss_score,
+    patched_version,
+    published_date
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_github_advisory`;
+
+
+[0m02:35:45.338421 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m02:35:45.361437 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4ec33b02-fa47-4d51-94ba-1eabd306325f&page=queryresults
+[0m02:35:45.883758 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:5d7bef57-7245-492b-8b1b-4b42fd6c36cd&page=queryresults
+[0m02:35:45.885269 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:5d7bef57-7245-492b-8b1b-4b42fd6c36cd&page=queryresults
+[0m02:35:45.893807 [debug] [Thread-1 (]: Database Error in model dim_maintainers (models\dimensions\dim_maintainers.sql)
+  Syntax error: Unexpected keyword MERGE at [14:7]
+  compiled code at target\run\vulngraph\models\dimensions\dim_maintainers.sql
+[0m02:35:45.894806 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A04B0F50>]}
+[0m02:35:45.895810 [error] [Thread-1 (]: 1 of 16 ERROR creating sql table model vulngraph.dim_maintainers ............... [[31mERROR[0m in 2.36s]
+[0m02:35:45.897804 [debug] [Thread-1 (]: Finished running node model.vulngraph.dim_maintainers
+[0m02:35:45.898803 [debug] [Thread-1 (]: Began running node model.vulngraph.stg_libraries_io
+[0m02:35:45.899800 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.dim_maintainers' to be skipped because of status 'error'.  Reason: Database Error in model dim_maintainers (models\dimensions\dim_maintainers.sql)
+  Syntax error: Unexpected keyword MERGE at [14:7]
+  compiled code at target\run\vulngraph\models\dimensions\dim_maintainers.sql.
+[0m02:35:45.901805 [info ] [Thread-1 (]: 7 of 16 START sql view model vulngraph.stg_libraries_io ........................ [RUN]
+[0m02:35:45.902805 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.vulngraph.dim_maintainers, now model.vulngraph.stg_libraries_io)
+[0m02:35:45.903804 [debug] [Thread-1 (]: Began compiling node model.vulngraph.stg_libraries_io
+[0m02:35:45.912801 [debug] [Thread-1 (]: Writing injected SQL for node "model.vulngraph.stg_libraries_io"
+[0m02:35:45.916801 [debug] [Thread-1 (]: Began executing node model.vulngraph.stg_libraries_io
+[0m02:35:45.923267 [debug] [Thread-1 (]: Writing runtime sql for node "model.vulngraph.stg_libraries_io"
+[0m02:35:45.927266 [debug] [Thread-1 (]: On model.vulngraph.stg_libraries_io: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_libraries_io"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_libraries_io`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_libraries_io`
+(
+    batch_id STRING,
+    package_name STRING,
+    dependency_name STRING,
+    ecosystem STRING,
+    version_constraint STRING,
+    depth_level INT64,
+    maintainer_handle STRING,
+    deprecated_flag BOOL,
+    snapshot_date DATE,
+    ingested_at TIMESTAMP
+)
+PARTITION BY snapshot_date
+CLUSTER BY package_name;
+
+SELECT
+    package_name,
+    dependency_name,
+    ecosystem,
+    version_constraint,
+    depth_level,
+    maintainer_handle,
+    deprecated_flag,
+    snapshot_date
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_libraries_io`;
+
+
+[0m02:35:45.928266 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:35:46.520356 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:74a8d820-dfc2-42ac-90d7-a777d40c591d&page=queryresults
+[0m02:35:46.521356 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:74a8d820-dfc2-42ac-90d7-a777d40c591d&page=queryresults
+[0m02:35:46.528361 [debug] [Thread-2 (]: Database Error in model fact_dependency_graph (models\facts\fact_dependency_graph.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_libraries_io was not found in location US
+  compiled code at target\run\vulngraph\models\facts\fact_dependency_graph.sql
+[0m02:35:46.528361 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539F30ADB0>]}
+[0m02:35:46.529875 [error] [Thread-2 (]: 5 of 16 ERROR creating sql table model vulngraph.fact_dependency_graph ......... [[31mERROR[0m in 1.44s]
+[0m02:35:46.531889 [debug] [Thread-2 (]: Finished running node model.vulngraph.fact_dependency_graph
+[0m02:35:46.533115 [debug] [Thread-2 (]: Began running node model.vulngraph.stg_nvd
+[0m02:35:46.534355 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.fact_dependency_graph' to be skipped because of status 'error'.  Reason: Database Error in model fact_dependency_graph (models\facts\fact_dependency_graph.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_libraries_io was not found in location US
+  compiled code at target\run\vulngraph\models\facts\fact_dependency_graph.sql.
+[0m02:35:46.535115 [info ] [Thread-2 (]: 8 of 16 START sql view model vulngraph.stg_nvd ................................. [RUN]
+[0m02:35:46.536584 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.vulngraph.fact_dependency_graph, now model.vulngraph.stg_nvd)
+[0m02:35:46.536584 [debug] [Thread-2 (]: Began compiling node model.vulngraph.stg_nvd
+[0m02:35:46.544279 [debug] [Thread-2 (]: Writing injected SQL for node "model.vulngraph.stg_nvd"
+[0m02:35:46.546283 [debug] [Thread-2 (]: Began executing node model.vulngraph.stg_nvd
+[0m02:35:46.553471 [debug] [Thread-2 (]: Writing runtime sql for node "model.vulngraph.stg_nvd"
+[0m02:35:46.556461 [debug] [Thread-2 (]: On model.vulngraph.stg_nvd: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_nvd"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_nvd`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_nvd`
+(
+    batch_id STRING,
+    cve_id STRING,
+    published_date TIMESTAMP,
+    last_modified_date TIMESTAMP,
+    severity_score FLOAT64,
+    cvss_vector STRING,
+    description STRING,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(ingested_at)
+CLUSTER BY cve_id;
+
+SELECT
+    cve_id,
+    published_date,
+    last_modified_date,
+    severity_score,
+    cvss_vector,
+    description
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_nvd`;
+
+
+[0m02:35:46.556461 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m02:35:46.597891 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:532fb404-8aea-48c3-9c36-49bc7fbe55a7&page=queryresults
+[0m02:35:46.599894 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:532fb404-8aea-48c3-9c36-49bc7fbe55a7&page=queryresults
+[0m02:35:46.606290 [debug] [Thread-4 (]: Database Error in model stg_github_advisory (models\staging\stg_github_advisory.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_github_advisory.sql
+[0m02:35:46.607291 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A04B23F0>]}
+[0m02:35:46.608291 [error] [Thread-4 (]: 6 of 16 ERROR creating sql view model vulngraph.stg_github_advisory ............ [[31mERROR[0m in 1.45s]
+[0m02:35:46.610292 [debug] [Thread-4 (]: Finished running node model.vulngraph.stg_github_advisory
+[0m02:35:46.611558 [debug] [Thread-4 (]: Began running node model.vulngraph.stg_osv
+[0m02:35:46.613574 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_github_advisory' to be skipped because of status 'error'.  Reason: Database Error in model stg_github_advisory (models\staging\stg_github_advisory.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_github_advisory.sql.
+[0m02:35:46.612570 [info ] [Thread-4 (]: 9 of 16 START sql view model vulngraph.stg_osv ................................. [RUN]
+[0m02:35:46.615570 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_github_advisory, now model.vulngraph.stg_osv)
+[0m02:35:46.616571 [debug] [Thread-4 (]: Began compiling node model.vulngraph.stg_osv
+[0m02:35:46.620876 [debug] [Thread-4 (]: Writing injected SQL for node "model.vulngraph.stg_osv"
+[0m02:35:46.622877 [debug] [Thread-4 (]: Began executing node model.vulngraph.stg_osv
+[0m02:35:46.634089 [debug] [Thread-4 (]: Writing runtime sql for node "model.vulngraph.stg_osv"
+[0m02:35:46.642717 [debug] [Thread-4 (]: On model.vulngraph.stg_osv: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_osv"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_osv`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_osv`
+(
+    batch_id STRING,
+    vuln_id STRING,
+    ecosystem STRING,
+    package_name STRING,
+    severity_score FLOAT64,
+    severity_bucket STRING,
+    affected_version STRING,
+    fixed_version STRING,
+    published_date TIMESTAMP,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(published_date)
+CLUSTER BY vuln_id;
+
+SELECT
+    vuln_id,
+    ecosystem,
+    package_name,
+    severity_score,
+    severity_bucket,
+    affected_version,
+    fixed_version,
+    published_date
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_osv`;
+
+
+[0m02:35:46.645719 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m02:35:47.192689 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4a0ecfab-f79f-4be4-93e4-dfaa78c3bfde&page=queryresults
+[0m02:35:47.194703 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4a0ecfab-f79f-4be4-93e4-dfaa78c3bfde&page=queryresults
+[0m02:35:47.205747 [debug] [Thread-1 (]: Database Error in model stg_libraries_io (models\staging\stg_libraries_io.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_libraries_io.sql
+[0m02:35:47.206748 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539EF62C60>]}
+[0m02:35:47.208750 [error] [Thread-1 (]: 7 of 16 ERROR creating sql view model vulngraph.stg_libraries_io ............... [[31mERROR[0m in 1.30s]
+[0m02:35:47.209749 [debug] [Thread-1 (]: Finished running node model.vulngraph.stg_libraries_io
+[0m02:35:47.211076 [debug] [Thread-1 (]: Began running node model.vulngraph.stg_pypi
+[0m02:35:47.212088 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_libraries_io' to be skipped because of status 'error'.  Reason: Database Error in model stg_libraries_io (models\staging\stg_libraries_io.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_libraries_io.sql.
+[0m02:35:47.214088 [info ] [Thread-1 (]: 10 of 16 START sql view model vulngraph.stg_pypi ............................... [RUN]
+[0m02:35:47.225470 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_libraries_io, now model.vulngraph.stg_pypi)
+[0m02:35:47.227468 [debug] [Thread-1 (]: Began compiling node model.vulngraph.stg_pypi
+[0m02:35:47.234464 [debug] [Thread-1 (]: Writing injected SQL for node "model.vulngraph.stg_pypi"
+[0m02:35:47.236465 [debug] [Thread-1 (]: Began executing node model.vulngraph.stg_pypi
+[0m02:35:47.244464 [debug] [Thread-1 (]: Writing runtime sql for node "model.vulngraph.stg_pypi"
+[0m02:35:47.252561 [debug] [Thread-1 (]: On model.vulngraph.stg_pypi: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_pypi"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_pypi`
+  OPTIONS()
+  as SELECT
+    package_id,
+    name,
+    ecosystem,
+    latest_version,
+    maintainer_id,
+    is_deprecated
+FROM `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_packages`;
+
+
+[0m02:35:47.253562 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:35:47.704764 [debug] [Thread-3 (]: SQL status: OK in 2.342 seconds
+[0m02:35:47.813417 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:12fe5a86-9e0d-4d17-84fd-c54e206f0e67&page=queryresults
+[0m02:35:47.815413 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:12fe5a86-9e0d-4d17-84fd-c54e206f0e67&page=queryresults
+[0m02:35:47.839339 [debug] [Thread-2 (]: Database Error in model stg_nvd (models\staging\stg_nvd.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_nvd.sql
+[0m02:35:47.839850 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A04B8FB0>]}
+[0m02:35:47.841327 [error] [Thread-2 (]: 8 of 16 ERROR creating sql view model vulngraph.stg_nvd ........................ [[31mERROR[0m in 1.30s]
+[0m02:35:47.843435 [debug] [Thread-2 (]: Finished running node model.vulngraph.stg_nvd
+[0m02:35:47.844523 [debug] [Thread-2 (]: Began running node model.vulngraph.stg_pypi_packages
+[0m02:35:47.845534 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_nvd' to be skipped because of status 'error'.  Reason: Database Error in model stg_nvd (models\staging\stg_nvd.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_nvd.sql.
+[0m02:35:47.846533 [info ] [Thread-2 (]: 11 of 16 START sql view model vulngraph.stg_pypi_packages ...................... [RUN]
+[0m02:35:47.851537 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_nvd, now model.vulngraph.stg_pypi_packages)
+[0m02:35:47.852535 [debug] [Thread-2 (]: Began compiling node model.vulngraph.stg_pypi_packages
+[0m02:35:47.856879 [debug] [Thread-2 (]: Writing injected SQL for node "model.vulngraph.stg_pypi_packages"
+[0m02:35:47.859316 [debug] [Thread-2 (]: Began executing node model.vulngraph.stg_pypi_packages
+[0m02:35:47.866324 [debug] [Thread-2 (]: Writing runtime sql for node "model.vulngraph.stg_pypi_packages"
+[0m02:35:47.868327 [debug] [Thread-2 (]: On model.vulngraph.stg_pypi_packages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_pypi_packages"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_packages`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_pypi_packages`
+(
+    batch_id STRING,
+    package_id STRING,
+    name STRING,
+    ecosystem STRING,
+    latest_version STRING,
+    maintainer_id STRING,
+    is_deprecated BOOL,
+    ingested_at TIMESTAMP
+)
+PARTITION BY DATE(ingested_at)
+CLUSTER BY package_id;;
+
+
+[0m02:35:47.869325 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m02:35:47.936501 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:dd909592-baa0-4b30-8bec-c0f3dc431085&page=queryresults
+[0m02:35:47.937501 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:dd909592-baa0-4b30-8bec-c0f3dc431085&page=queryresults
+[0m02:35:47.945953 [debug] [Thread-4 (]: Database Error in model stg_osv (models\staging\stg_osv.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_osv.sql
+[0m02:35:47.946962 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A0698C20>]}
+[0m02:35:47.947964 [error] [Thread-4 (]: 9 of 16 ERROR creating sql view model vulngraph.stg_osv ........................ [[31mERROR[0m in 1.33s]
+[0m02:35:47.948965 [debug] [Thread-4 (]: Finished running node model.vulngraph.stg_osv
+[0m02:35:47.950372 [debug] [Thread-4 (]: Began running node model.vulngraph.stg_pypi_versions
+[0m02:35:47.951403 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_osv' to be skipped because of status 'error'.  Reason: Database Error in model stg_osv (models\staging\stg_osv.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_osv.sql.
+[0m02:35:47.952382 [info ] [Thread-4 (]: 12 of 16 START sql view model vulngraph.stg_pypi_versions ...................... [RUN]
+[0m02:35:47.954741 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.vulngraph.stg_osv, now model.vulngraph.stg_pypi_versions)
+[0m02:35:47.955755 [debug] [Thread-4 (]: Began compiling node model.vulngraph.stg_pypi_versions
+[0m02:35:47.963278 [debug] [Thread-4 (]: Writing injected SQL for node "model.vulngraph.stg_pypi_versions"
+[0m02:35:47.965277 [debug] [Thread-4 (]: Began executing node model.vulngraph.stg_pypi_versions
+[0m02:35:47.974462 [debug] [Thread-4 (]: Writing runtime sql for node "model.vulngraph.stg_pypi_versions"
+[0m02:35:47.977485 [debug] [Thread-4 (]: On model.vulngraph.stg_pypi_versions: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "model.vulngraph.stg_pypi_versions"} */
+
+
+  create or replace view `erudite-river-423507-n3`.`vulngraph`.`stg_pypi_versions`
+  OPTIONS()
+  as CREATE TABLE IF NOT EXISTS `vulngraph.stg_pypi_versions`
+(
+    batch_id STRING,
+    version_id STRING,
+    package_id STRING,
+    semver STRING,
+    release_date DATE,
+    yanked_flag BOOL,
+    ingested_at TIMESTAMP
+)
+PARTITION BY release_date
+CLUSTER BY package_id;;
+
+
+[0m02:35:47.978490 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m02:35:48.453882 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002539EACF680>]}
+[0m02:35:48.454884 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4b8fbe63-d958-4d19-9866-be6714fd318b&page=queryresults
+[0m02:35:48.456883 [info ] [Thread-3 (]: 3 of 16 OK created sql table model vulngraph.dim_time .......................... [[32mCREATE TABLE (5.8k rows, 0 processed)[0m in 4.92s]
+[0m02:35:48.459882 [debug] [Thread-3 (]: Finished running node model.vulngraph.dim_time
+[0m02:35:48.457885 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:4b8fbe63-d958-4d19-9866-be6714fd318b&page=queryresults
+[0m02:35:48.460884 [debug] [Thread-3 (]: Began running node model.vulngraph.fact_vulnerability_exposure
+[0m02:35:48.466536 [info ] [Thread-3 (]: 13 of 16 SKIP relation vulngraph.fact_vulnerability_exposure ................... [[33mSKIP[0m]
+[0m02:35:48.467536 [debug] [Thread-3 (]: Finished running node model.vulngraph.fact_vulnerability_exposure
+[0m02:35:48.468535 [debug] [Thread-3 (]: Began running node model.vulngraph.mart_ecosystem_health
+[0m02:35:48.474535 [debug] [Thread-1 (]: Database Error in model stg_pypi (models\staging\stg_pypi.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\staging\stg_pypi.sql
+[0m02:35:48.475536 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A0B47500>]}
+[0m02:35:48.469535 [info ] [Thread-3 (]: 14 of 16 SKIP relation vulngraph.mart_ecosystem_health ......................... [[33mSKIP[0m]
+[0m02:35:48.479547 [debug] [Thread-3 (]: Finished running node model.vulngraph.mart_ecosystem_health
+[0m02:35:48.478545 [error] [Thread-1 (]: 10 of 16 ERROR creating sql view model vulngraph.stg_pypi ...................... [[31mERROR[0m in 1.25s]
+[0m02:35:48.480546 [debug] [Thread-3 (]: Began running node model.vulngraph.mart_maintainer_risk
+[0m02:35:48.482683 [debug] [Thread-1 (]: Finished running node model.vulngraph.stg_pypi
+[0m02:35:48.483699 [info ] [Thread-3 (]: 15 of 16 SKIP relation vulngraph.mart_maintainer_risk .......................... [[33mSKIP[0m]
+[0m02:35:48.484695 [debug] [Thread-1 (]: Began running node model.vulngraph.mart_patch_velocity
+[0m02:35:48.485696 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_pypi' to be skipped because of status 'error'.  Reason: Database Error in model stg_pypi (models\staging\stg_pypi.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\staging\stg_pypi.sql.
+[0m02:35:48.487175 [debug] [Thread-3 (]: Finished running node model.vulngraph.mart_maintainer_risk
+[0m02:35:48.488185 [info ] [Thread-1 (]: 16 of 16 SKIP relation vulngraph.mart_patch_velocity ........................... [[33mSKIP[0m]
+[0m02:35:48.490294 [debug] [Thread-1 (]: Finished running node model.vulngraph.mart_patch_velocity
+[0m02:35:49.138745 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:2cb0bdd6-b6be-474e-b8cc-40b5337efed0&page=queryresults
+[0m02:35:49.138745 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:2cb0bdd6-b6be-474e-b8cc-40b5337efed0&page=queryresults
+[0m02:35:49.146318 [debug] [Thread-2 (]: Database Error in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_packages.sql
+[0m02:35:49.147326 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A0C358E0>]}
+[0m02:35:49.148327 [error] [Thread-2 (]: 11 of 16 ERROR creating sql view model vulngraph.stg_pypi_packages ............. [[31mERROR[0m in 1.30s]
+[0m02:35:49.149325 [debug] [Thread-2 (]: Finished running node model.vulngraph.stg_pypi_packages
+[0m02:35:49.150326 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_pypi_packages' to be skipped because of status 'error'.  Reason: Database Error in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_packages.sql.
+[0m02:35:49.217178 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:728769a5-918f-4d3a-b97c-9f76c7631e53&page=queryresults
+[0m02:35:49.218193 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:728769a5-918f-4d3a-b97c-9f76c7631e53&page=queryresults
+[0m02:35:49.225990 [debug] [Thread-4 (]: Database Error in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_versions.sql
+[0m02:35:49.226979 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '396bc263-b6ab-467e-b121-8c5873469289', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A0C37F20>]}
+[0m02:35:49.227979 [error] [Thread-4 (]: 12 of 16 ERROR creating sql view model vulngraph.stg_pypi_versions ............. [[31mERROR[0m in 1.27s]
+[0m02:35:49.228968 [debug] [Thread-4 (]: Finished running node model.vulngraph.stg_pypi_versions
+[0m02:35:49.229970 [debug] [Thread-7 (]: Marking all children of 'model.vulngraph.stg_pypi_versions' to be skipped because of status 'error'.  Reason: Database Error in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_versions.sql.
+[0m02:35:49.231967 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:35:49.233476 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:35:49.233476 [debug] [MainThread]: Connection 'list_erudite-river-423507-n3' was properly closed.
+[0m02:35:49.234485 [debug] [MainThread]: Connection 'list_erudite-river-423507-n3_vulngraph' was properly closed.
+[0m02:35:49.234485 [debug] [MainThread]: Connection 'model.vulngraph.stg_pypi' was properly closed.
+[0m02:35:49.235485 [debug] [MainThread]: Connection 'model.vulngraph.stg_pypi_packages' was properly closed.
+[0m02:35:49.235485 [debug] [MainThread]: Connection 'model.vulngraph.dim_time' was properly closed.
+[0m02:35:49.236485 [debug] [MainThread]: Connection 'model.vulngraph.stg_pypi_versions' was properly closed.
+[0m02:35:49.237485 [info ] [MainThread]: 
+[0m02:35:49.238484 [info ] [MainThread]: Finished running 9 table models, 7 view models in 0 hours 0 minutes and 10.30 seconds (10.30s).
+[0m02:35:49.243246 [debug] [MainThread]: Command end result
+[0m02:35:49.313313 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:35:49.317670 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:35:49.334783 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt\target\run_results.json
+[0m02:35:49.335783 [info ] [MainThread]: 
+[0m02:35:49.336291 [info ] [MainThread]: [31mCompleted with 11 errors, 0 partial successes, and 0 warnings:[0m
+[0m02:35:49.337734 [info ] [MainThread]: 
+[0m02:35:49.337734 [error] [MainThread]: [31mFailure in model dim_packages (models\dimensions\dim_packages.sql)[0m
+[0m02:35:49.338746 [error] [MainThread]:   Database Error in model dim_packages (models\dimensions\dim_packages.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\dimensions\dim_packages.sql
+[0m02:35:49.339746 [info ] [MainThread]: 
+[0m02:35:49.339746 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\dimensions\dim_packages.sql
+[0m02:35:49.340747 [info ] [MainThread]: 
+[0m02:35:49.341746 [error] [MainThread]: [31mFailure in model dim_versions (models\dimensions\dim_versions.sql)[0m
+[0m02:35:49.342253 [error] [MainThread]:   Database Error in model dim_versions (models\dimensions\dim_versions.sql)
+  Syntax error: Unexpected keyword MERGE at [14:7]
+  compiled code at target\run\vulngraph\models\dimensions\dim_versions.sql
+[0m02:35:49.343263 [info ] [MainThread]: 
+[0m02:35:49.344267 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\dimensions\dim_versions.sql
+[0m02:35:49.345261 [info ] [MainThread]: 
+[0m02:35:49.345261 [error] [MainThread]: [31mFailure in model dim_maintainers (models\dimensions\dim_maintainers.sql)[0m
+[0m02:35:49.346723 [error] [MainThread]:   Database Error in model dim_maintainers (models\dimensions\dim_maintainers.sql)
+  Syntax error: Unexpected keyword MERGE at [14:7]
+  compiled code at target\run\vulngraph\models\dimensions\dim_maintainers.sql
+[0m02:35:49.349231 [info ] [MainThread]: 
+[0m02:35:49.350107 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\dimensions\dim_maintainers.sql
+[0m02:35:49.350643 [info ] [MainThread]: 
+[0m02:35:49.351193 [error] [MainThread]: [31mFailure in model fact_dependency_graph (models\facts\fact_dependency_graph.sql)[0m
+[0m02:35:49.352264 [error] [MainThread]:   Database Error in model fact_dependency_graph (models\facts\fact_dependency_graph.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_libraries_io was not found in location US
+  compiled code at target\run\vulngraph\models\facts\fact_dependency_graph.sql
+[0m02:35:49.352813 [info ] [MainThread]: 
+[0m02:35:49.353937 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\facts\fact_dependency_graph.sql
+[0m02:35:49.354482 [info ] [MainThread]: 
+[0m02:35:49.355562 [error] [MainThread]: [31mFailure in model stg_github_advisory (models\staging\stg_github_advisory.sql)[0m
+[0m02:35:49.355562 [error] [MainThread]:   Database Error in model stg_github_advisory (models\staging\stg_github_advisory.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_github_advisory.sql
+[0m02:35:49.356923 [info ] [MainThread]: 
+[0m02:35:49.356923 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_github_advisory.sql
+[0m02:35:49.358193 [info ] [MainThread]: 
+[0m02:35:49.359203 [error] [MainThread]: [31mFailure in model stg_libraries_io (models\staging\stg_libraries_io.sql)[0m
+[0m02:35:49.359203 [error] [MainThread]:   Database Error in model stg_libraries_io (models\staging\stg_libraries_io.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_libraries_io.sql
+[0m02:35:49.360684 [info ] [MainThread]: 
+[0m02:35:49.361699 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_libraries_io.sql
+[0m02:35:49.362701 [info ] [MainThread]: 
+[0m02:35:49.363703 [error] [MainThread]: [31mFailure in model stg_nvd (models\staging\stg_nvd.sql)[0m
+[0m02:35:49.364702 [error] [MainThread]:   Database Error in model stg_nvd (models\staging\stg_nvd.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_nvd.sql
+[0m02:35:49.364702 [info ] [MainThread]: 
+[0m02:35:49.365704 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_nvd.sql
+[0m02:35:49.366701 [info ] [MainThread]: 
+[0m02:35:49.366701 [error] [MainThread]: [31mFailure in model stg_osv (models\staging\stg_osv.sql)[0m
+[0m02:35:49.367703 [error] [MainThread]:   Database Error in model stg_osv (models\staging\stg_osv.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_osv.sql
+[0m02:35:49.368707 [info ] [MainThread]: 
+[0m02:35:49.369713 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_osv.sql
+[0m02:35:49.369713 [info ] [MainThread]: 
+[0m02:35:49.370707 [error] [MainThread]: [31mFailure in model stg_pypi (models\staging\stg_pypi.sql)[0m
+[0m02:35:49.370707 [error] [MainThread]:   Database Error in model stg_pypi (models\staging\stg_pypi.sql)
+  Not found: Table erudite-river-423507-n3:vulngraph.stg_pypi_packages was not found in location US
+  compiled code at target\run\vulngraph\models\staging\stg_pypi.sql
+[0m02:35:49.371706 [info ] [MainThread]: 
+[0m02:35:49.372711 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_pypi.sql
+[0m02:35:49.373701 [info ] [MainThread]: 
+[0m02:35:49.373701 [error] [MainThread]: [31mFailure in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)[0m
+[0m02:35:49.374960 [error] [MainThread]:   Database Error in model stg_pypi_packages (models\staging\stg_pypi_packages.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_packages.sql
+[0m02:35:49.375970 [info ] [MainThread]: 
+[0m02:35:49.375970 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_pypi_packages.sql
+[0m02:35:49.377973 [info ] [MainThread]: 
+[0m02:35:49.378971 [error] [MainThread]: [31mFailure in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)[0m
+[0m02:35:49.378971 [error] [MainThread]:   Database Error in model stg_pypi_versions (models\staging\stg_pypi_versions.sql)
+  Syntax error: Unexpected keyword CREATE at [6:6]
+  compiled code at target\run\vulngraph\models\staging\stg_pypi_versions.sql
+[0m02:35:49.380969 [info ] [MainThread]: 
+[0m02:35:49.380969 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\staging\stg_pypi_versions.sql
+[0m02:35:49.381969 [info ] [MainThread]: 
+[0m02:35:49.382972 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=11 SKIP=4 NO-OP=0 TOTAL=16
+[0m02:35:49.383970 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 2 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m02:35:49.384972 [debug] [MainThread]: Command `dbt run` failed at 02:35:49.384972 after 15.93 seconds
+[0m02:35:49.385980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538BEFC740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538B39D2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002538B39F4D0>]}
+[0m02:35:49.385980 [debug] [MainThread]: Flushing usage events
+[0m02:35:51.590858 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:39:32.460099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33F1896A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33C7117F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33AF01550>]}
+
+
+============================== 02:39:32.466110 | 2b747009-7b8f-48f1-8d33-54c94274c840 ==============================
+[0m02:39:32.466110 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:39:32.467100 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'invocation_command': 'dbt parse --project-dir dbt --profiles-dir dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:39:33.990451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2b747009-7b8f-48f1-8d33-54c94274c840', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F351B11370>]}
+[0m02:39:34.094037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2b747009-7b8f-48f1-8d33-54c94274c840', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F34FC15AC0>]}
+[0m02:39:34.095048 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:39:34.567985 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m02:39:34.908997 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 1 files changed.
+[0m02:39:34.909995 [debug] [MainThread]: Partial parsing: added file: vulngraph://models\marts\mart_blast_radius.sql
+[0m02:39:34.909995 [debug] [MainThread]: Partial parsing: updated file: vulngraph://models\marts\schema.yml
+[0m02:39:35.603468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2b747009-7b8f-48f1-8d33-54c94274c840', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F351FBF140>]}
+[0m02:39:35.609505 [info ] [MainThread]: Performance info: dbt\target\perf_info.json
+[0m02:39:35.770467 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:39:35.773466 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:39:35.774466 [debug] [MainThread]: Command `dbt parse` succeeded at 02:39:35.774466 after 3.55 seconds
+[0m02:39:35.775466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33EC70170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F351A74DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33F2CEC00>]}
+[0m02:39:35.775466 [debug] [MainThread]: Flushing usage events
+[0m02:39:37.739477 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:40:04.208545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F031B0320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F7F551550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F0145F170>]}
+
+
+============================== 02:40:04.213549 | 89d3c3e6-df4c-43ee-bff3-5f52898b99e3 ==============================
+[0m02:40:04.213549 [info ] [MainThread]: Running with dbt=1.11.11
+[0m02:40:04.214546 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt test --project-dir dbt --profiles-dir dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m02:40:05.754225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '89d3c3e6-df4c-43ee-bff3-5f52898b99e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F05154C50>]}
+[0m02:40:05.859261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '89d3c3e6-df4c-43ee-bff3-5f52898b99e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F15F061E0>]}
+[0m02:40:05.860262 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m02:40:06.353698 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m02:40:06.691413 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m02:40:06.692392 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m02:40:06.692392 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m02:40:06.760502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '89d3c3e6-df4c-43ee-bff3-5f52898b99e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F168D04D0>]}
+[0m02:40:06.934892 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:40:06.940091 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:40:06.976779 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '89d3c3e6-df4c-43ee-bff3-5f52898b99e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F16B83CE0>]}
+[0m02:40:06.976779 [info ] [MainThread]: Found 17 models, 12 data tests, 7 sources, 665 macros
+[0m02:40:06.977777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '89d3c3e6-df4c-43ee-bff3-5f52898b99e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F163A2AE0>]}
+[0m02:40:06.982775 [info ] [MainThread]: 
+[0m02:40:06.983783 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m02:40:06.983783 [info ] [MainThread]: 
+[0m02:40:06.985786 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m02:40:06.994316 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_erudite-river-423507-n3_vulngraph'
+[0m02:40:06.995316 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:40:10.249473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '89d3c3e6-df4c-43ee-bff3-5f52898b99e3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F168D07D0>]}
+[0m02:40:10.250467 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:40:10.256630 [debug] [Thread-1 (]: Began running node test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1
+[0m02:40:10.257629 [debug] [Thread-2 (]: Began running node test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52
+[0m02:40:10.257629 [debug] [Thread-3 (]: Began running node test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9
+[0m02:40:10.258617 [debug] [Thread-4 (]: Began running node test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50
+[0m02:40:10.257629 [info ] [Thread-1 (]: 1 of 12 START test accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL  [RUN]
+[0m02:40:10.259617 [info ] [Thread-2 (]: 2 of 12 START test dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date  [RUN]
+[0m02:40:10.259617 [info ] [Thread-3 (]: 3 of 12 START test not_null_mart_blast_radius_max_depth_reached ................ [RUN]
+[0m02:40:10.261622 [debug] [Thread-1 (]: Acquiring new bigquery connection 'test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1'
+[0m02:40:10.260618 [info ] [Thread-4 (]: 4 of 12 START test not_null_mart_blast_radius_total_impacted_packages .......... [RUN]
+[0m02:40:10.261622 [debug] [Thread-2 (]: Acquiring new bigquery connection 'test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52'
+[0m02:40:10.263129 [debug] [Thread-3 (]: Acquiring new bigquery connection 'test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9'
+[0m02:40:10.264140 [debug] [Thread-1 (]: Began compiling node test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1
+[0m02:40:10.265136 [debug] [Thread-4 (]: Acquiring new bigquery connection 'test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50'
+[0m02:40:10.265136 [debug] [Thread-2 (]: Began compiling node test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52
+[0m02:40:10.266139 [debug] [Thread-3 (]: Began compiling node test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9
+[0m02:40:10.297715 [debug] [Thread-4 (]: Began compiling node test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50
+[0m02:40:10.300710 [debug] [Thread-1 (]: Writing injected SQL for node "test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1"
+[0m02:40:10.318223 [debug] [Thread-2 (]: Writing injected SQL for node "test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52"
+[0m02:40:10.334733 [debug] [Thread-3 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9"
+[0m02:40:10.341281 [debug] [Thread-4 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50"
+[0m02:40:10.348362 [debug] [Thread-1 (]: Began executing node test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1
+[0m02:40:10.395062 [debug] [Thread-1 (]: Writing runtime sql for node "test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1"
+[0m02:40:10.396257 [debug] [Thread-2 (]: Began executing node test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52
+[0m02:40:10.396872 [debug] [Thread-4 (]: Began executing node test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50
+[0m02:40:10.397949 [debug] [Thread-3 (]: Began executing node test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9
+[0m02:40:10.403474 [debug] [Thread-2 (]: Writing runtime sql for node "test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52"
+[0m02:40:10.407457 [debug] [Thread-4 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50"
+[0m02:40:10.412466 [debug] [Thread-3 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9"
+[0m02:40:10.415720 [debug] [Thread-1 (]: On test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        risk_band as value_field,
+        count(*) as n_records
+
+    from `erudite-river-423507-n3`.`vulngraph`.`mart_maintainer_risk`
+    group by risk_band
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'LOW','MEDIUM','HIGH','CRITICAL'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:10.416735 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m02:40:10.419745 [debug] [Thread-2 (]: On test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+
+
+
+
+
+with validation_errors as (
+
+    select
+        ecosystem, exposure_date
+    from `erudite-river-423507-n3`.`vulngraph`.`mart_patch_velocity`
+    group by ecosystem, exposure_date
+    having count(*) > 1
+
+)
+
+select *
+from validation_errors
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:10.420761 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m02:40:10.420761 [debug] [Thread-3 (]: On test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select max_depth_reached
+from `erudite-river-423507-n3`.`vulngraph`.`mart_blast_radius`
+where max_depth_reached is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:10.422989 [debug] [Thread-4 (]: On test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select total_impacted_packages
+from `erudite-river-423507-n3`.`vulngraph`.`mart_blast_radius`
+where total_impacted_packages is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:10.423734 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m02:40:10.425761 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m02:40:11.988810 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:a2527fea-564d-4c46-826f-4180dc98e297&page=queryresults
+[0m02:40:11.990810 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:f8239a8c-5b50-4fa6-a71d-4cc516dc8e9c&page=queryresults
+[0m02:40:11.989809 [error] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:a2527fea-564d-4c46-826f-4180dc98e297&page=queryresults
+[0m02:40:11.990810 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:f8239a8c-5b50-4fa6-a71d-4cc516dc8e9c&page=queryresults
+[0m02:40:12.011905 [debug] [Thread-3 (]: Database Error in test not_null_mart_blast_radius_max_depth_reached (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_max_depth_reached.sql
+[0m02:40:12.014899 [debug] [Thread-1 (]: Database Error in test accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\accepted_values_mart_maintaine_05ccea74a9b7565c9565004bf98b59fe.sql
+[0m02:40:12.017103 [error] [Thread-3 (]: 3 of 12 ERROR not_null_mart_blast_radius_max_depth_reached ..................... [[31mERROR[0m in 1.75s]
+[0m02:40:12.018606 [error] [Thread-1 (]: 1 of 12 ERROR accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL  [[31mERROR[0m in 1.76s]
+[0m02:40:12.019705 [debug] [Thread-3 (]: Finished running node test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9
+[0m02:40:12.021716 [debug] [Thread-1 (]: Finished running node test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1
+[0m02:40:12.021716 [debug] [Thread-3 (]: Began running node test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036
+[0m02:40:12.023893 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_blast_radius_max_depth_reached (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_max_depth_reached.sql.
+[0m02:40:12.023893 [debug] [Thread-1 (]: Began running node test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684
+[0m02:40:12.027892 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1' to be skipped because of status 'error'.  Reason: Database Error in test accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\accepted_values_mart_maintaine_05ccea74a9b7565c9565004bf98b59fe.sql.
+[0m02:40:12.024894 [info ] [Thread-3 (]: 5 of 12 START test not_null_mart_blast_radius_vuln_id .......................... [RUN]
+[0m02:40:12.028891 [info ] [Thread-1 (]: 6 of 12 START test not_null_mart_ecosystem_health_abandonment_rate ............. [RUN]
+[0m02:40:12.029892 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.vulngraph.not_null_mart_blast_radius_max_depth_reached.d2738352a9, now test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036)
+[0m02:40:12.030892 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.vulngraph.accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL.637eb740c1, now test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684)
+[0m02:40:12.032042 [debug] [Thread-3 (]: Began compiling node test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036
+[0m02:40:12.033053 [debug] [Thread-1 (]: Began compiling node test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684
+[0m02:40:12.044608 [debug] [Thread-3 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036"
+[0m02:40:12.057332 [debug] [Thread-1 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684"
+[0m02:40:12.059612 [debug] [Thread-3 (]: Began executing node test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036
+[0m02:40:12.065579 [debug] [Thread-3 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036"
+[0m02:40:12.066657 [debug] [Thread-1 (]: Began executing node test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684
+[0m02:40:12.073033 [debug] [Thread-1 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684"
+[0m02:40:12.074033 [debug] [Thread-3 (]: On test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select vuln_id
+from `erudite-river-423507-n3`.`vulngraph`.`mart_blast_radius`
+where vuln_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:12.075032 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m02:40:12.078253 [debug] [Thread-1 (]: On test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select abandonment_rate
+from `erudite-river-423507-n3`.`vulngraph`.`mart_ecosystem_health`
+where abandonment_rate is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:12.078253 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:40:12.188233 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:90a3166f-5af6-4771-afbe-40f1281bef83&page=queryresults
+[0m02:40:12.189244 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:90a3166f-5af6-4771-afbe-40f1281bef83&page=queryresults
+[0m02:40:12.198251 [debug] [Thread-4 (]: Database Error in test not_null_mart_blast_radius_total_impacted_packages (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_total_impacted_packages.sql
+[0m02:40:12.199248 [error] [Thread-4 (]: 4 of 12 ERROR not_null_mart_blast_radius_total_impacted_packages ............... [[31mERROR[0m in 1.93s]
+[0m02:40:12.200243 [debug] [Thread-4 (]: Finished running node test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50
+[0m02:40:12.201245 [debug] [Thread-4 (]: Began running node test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29
+[0m02:40:12.203257 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_blast_radius_total_impacted_packages (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_total_impacted_packages.sql.
+[0m02:40:12.206566 [info ] [Thread-4 (]: 7 of 12 START test not_null_mart_ecosystem_health_ecosystem .................... [RUN]
+[0m02:40:12.208716 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.vulngraph.not_null_mart_blast_radius_total_impacted_packages.a69431aa50, now test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29)
+[0m02:40:12.210080 [debug] [Thread-4 (]: Began compiling node test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29
+[0m02:40:12.220816 [debug] [Thread-4 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29"
+[0m02:40:12.222897 [debug] [Thread-4 (]: Began executing node test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29
+[0m02:40:12.229950 [debug] [Thread-4 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29"
+[0m02:40:12.238522 [debug] [Thread-4 (]: On test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select ecosystem
+from `erudite-river-423507-n3`.`vulngraph`.`mart_ecosystem_health`
+where ecosystem is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:12.239526 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m02:40:12.289512 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:ec8884c6-535f-46df-a5ec-83722f471af5&page=queryresults
+[0m02:40:12.291519 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:ec8884c6-535f-46df-a5ec-83722f471af5&page=queryresults
+[0m02:40:12.300902 [debug] [Thread-2 (]: Database Error in test dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\dbt_utils_unique_combination_o_db31271102a5b7e90a854de77df63006.sql
+[0m02:40:12.302899 [error] [Thread-2 (]: 2 of 12 ERROR dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date  [[31mERROR[0m in 2.04s]
+[0m02:40:12.304902 [debug] [Thread-2 (]: Finished running node test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52
+[0m02:40:12.305902 [debug] [Thread-2 (]: Began running node test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544
+[0m02:40:12.306903 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52' to be skipped because of status 'error'.  Reason: Database Error in test dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\dbt_utils_unique_combination_o_db31271102a5b7e90a854de77df63006.sql.
+[0m02:40:12.307902 [info ] [Thread-2 (]: 8 of 12 START test not_null_mart_maintainer_risk_package_id .................... [RUN]
+[0m02:40:12.308902 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.vulngraph.dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date.8f71d10e52, now test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544)
+[0m02:40:12.309901 [debug] [Thread-2 (]: Began compiling node test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544
+[0m02:40:12.319909 [debug] [Thread-2 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544"
+[0m02:40:12.321913 [debug] [Thread-2 (]: Began executing node test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544
+[0m02:40:12.328911 [debug] [Thread-2 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544"
+[0m02:40:12.331912 [debug] [Thread-2 (]: On test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select package_id
+from `erudite-river-423507-n3`.`vulngraph`.`mart_maintainer_risk`
+where package_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:12.333420 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m02:40:13.625269 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:ff5ce453-db97-46eb-89f0-fa95ab207ab7&page=queryresults
+[0m02:40:13.626291 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:ff5ce453-db97-46eb-89f0-fa95ab207ab7&page=queryresults
+[0m02:40:13.632277 [debug] [Thread-1 (]: Database Error in test not_null_mart_ecosystem_health_abandonment_rate (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_abandonment_rate.sql
+[0m02:40:13.633280 [error] [Thread-1 (]: 6 of 12 ERROR not_null_mart_ecosystem_health_abandonment_rate .................. [[31mERROR[0m in 1.60s]
+[0m02:40:13.635515 [debug] [Thread-1 (]: Finished running node test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684
+[0m02:40:13.635515 [debug] [Thread-1 (]: Began running node test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1
+[0m02:40:13.636514 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_ecosystem_health_abandonment_rate (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_abandonment_rate.sql.
+[0m02:40:13.636514 [info ] [Thread-1 (]: 9 of 12 START test not_null_mart_patch_velocity_avg_days_to_patch .............. [RUN]
+[0m02:40:13.637533 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.vulngraph.not_null_mart_ecosystem_health_abandonment_rate.ad115ff684, now test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1)
+[0m02:40:13.638518 [debug] [Thread-1 (]: Began compiling node test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1
+[0m02:40:13.645528 [debug] [Thread-1 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1"
+[0m02:40:13.647519 [debug] [Thread-1 (]: Began executing node test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1
+[0m02:40:13.654932 [debug] [Thread-1 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1"
+[0m02:40:13.655971 [debug] [Thread-1 (]: On test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select avg_days_to_patch
+from `erudite-river-423507-n3`.`vulngraph`.`mart_patch_velocity`
+where avg_days_to_patch is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:13.657010 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:40:13.746113 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:b9385fc0-3d6b-4838-a02b-27833a7355a1&page=queryresults
+[0m02:40:13.747763 [error] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:b9385fc0-3d6b-4838-a02b-27833a7355a1&page=queryresults
+[0m02:40:13.752772 [debug] [Thread-3 (]: Database Error in test not_null_mart_blast_radius_vuln_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_vuln_id.sql
+[0m02:40:13.752772 [error] [Thread-3 (]: 5 of 12 ERROR not_null_mart_blast_radius_vuln_id ............................... [[31mERROR[0m in 1.72s]
+[0m02:40:13.754775 [debug] [Thread-3 (]: Finished running node test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036
+[0m02:40:13.754775 [debug] [Thread-3 (]: Began running node test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864
+[0m02:40:13.755773 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_blast_radius_vuln_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_vuln_id.sql.
+[0m02:40:13.756773 [info ] [Thread-3 (]: 10 of 12 START test not_null_mart_patch_velocity_ecosystem ..................... [RUN]
+[0m02:40:13.758771 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.vulngraph.not_null_mart_blast_radius_vuln_id.82471f4036, now test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864)
+[0m02:40:13.759773 [debug] [Thread-3 (]: Began compiling node test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864
+[0m02:40:13.770850 [debug] [Thread-3 (]: Writing injected SQL for node "test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864"
+[0m02:40:13.772088 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:0f046f5c-f674-46ec-8300-c4017fc4dfbd&page=queryresults
+[0m02:40:13.773116 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:0f046f5c-f674-46ec-8300-c4017fc4dfbd&page=queryresults
+[0m02:40:13.777448 [debug] [Thread-3 (]: Began executing node test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864
+[0m02:40:13.783567 [debug] [Thread-3 (]: Writing runtime sql for node "test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864"
+[0m02:40:13.787083 [debug] [Thread-2 (]: Database Error in test not_null_mart_maintainer_risk_package_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_maintainer_risk_package_id.sql
+[0m02:40:13.789091 [debug] [Thread-3 (]: On test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select ecosystem
+from `erudite-river-423507-n3`.`vulngraph`.`mart_patch_velocity`
+where ecosystem is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:13.788097 [error] [Thread-2 (]: 8 of 12 ERROR not_null_mart_maintainer_risk_package_id ......................... [[31mERROR[0m in 1.48s]
+[0m02:40:13.790090 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m02:40:13.790090 [debug] [Thread-2 (]: Finished running node test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544
+[0m02:40:13.792091 [debug] [Thread-2 (]: Began running node test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8
+[0m02:40:13.793096 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_maintainer_risk_package_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_maintainer_risk_package_id.sql.
+[0m02:40:13.793096 [info ] [Thread-2 (]: 11 of 12 START test unique_mart_ecosystem_health_ecosystem ..................... [RUN]
+[0m02:40:13.795093 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.vulngraph.not_null_mart_maintainer_risk_package_id.c1e4581544, now test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8)
+[0m02:40:13.795093 [debug] [Thread-2 (]: Began compiling node test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8
+[0m02:40:13.807059 [debug] [Thread-2 (]: Writing injected SQL for node "test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8"
+[0m02:40:13.815508 [debug] [Thread-2 (]: Began executing node test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8
+[0m02:40:13.820521 [debug] [Thread-2 (]: Writing runtime sql for node "test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8"
+[0m02:40:13.821520 [debug] [Thread-2 (]: On test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select ecosystem as unique_field
+  from `erudite-river-423507-n3`.`vulngraph`.`mart_ecosystem_health`
+  where ecosystem is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:13.822527 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m02:40:14.481331 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:cac78800-3fe4-45ff-923e-c2d09d0108cb&page=queryresults
+[0m02:40:14.482431 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:cac78800-3fe4-45ff-923e-c2d09d0108cb&page=queryresults
+[0m02:40:14.487426 [debug] [Thread-4 (]: Database Error in test not_null_mart_ecosystem_health_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_ecosystem.sql
+[0m02:40:14.487426 [error] [Thread-4 (]: 7 of 12 ERROR not_null_mart_ecosystem_health_ecosystem ......................... [[31mERROR[0m in 2.28s]
+[0m02:40:14.488430 [debug] [Thread-4 (]: Finished running node test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29
+[0m02:40:14.489790 [debug] [Thread-4 (]: Began running node test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4
+[0m02:40:14.489790 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_ecosystem_health_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_ecosystem.sql.
+[0m02:40:14.490802 [info ] [Thread-4 (]: 12 of 12 START test unique_mart_maintainer_risk_package_id ..................... [RUN]
+[0m02:40:14.491797 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.vulngraph.not_null_mart_ecosystem_health_ecosystem.811b8bcb29, now test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4)
+[0m02:40:14.492799 [debug] [Thread-4 (]: Began compiling node test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4
+[0m02:40:14.502799 [debug] [Thread-4 (]: Writing injected SQL for node "test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4"
+[0m02:40:14.504801 [debug] [Thread-4 (]: Began executing node test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4
+[0m02:40:14.509800 [debug] [Thread-4 (]: Writing runtime sql for node "test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4"
+[0m02:40:14.512800 [debug] [Thread-4 (]: On test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "vulngraph", "target_name": "dev", "node_id": "test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with dbt_test__target as (
+
+  select package_id as unique_field
+  from `erudite-river-423507-n3`.`vulngraph`.`mart_maintainer_risk`
+  where package_id is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m02:40:14.513800 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m02:40:15.111928 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:a56547e3-1ec0-4c71-af2a-075233a2075f&page=queryresults
+[0m02:40:15.112927 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:a56547e3-1ec0-4c71-af2a-075233a2075f&page=queryresults
+[0m02:40:15.118786 [debug] [Thread-1 (]: Database Error in test not_null_mart_patch_velocity_avg_days_to_patch (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_avg_days_to_patch.sql
+[0m02:40:15.119809 [error] [Thread-1 (]: 9 of 12 ERROR not_null_mart_patch_velocity_avg_days_to_patch ................... [[31mERROR[0m in 1.48s]
+[0m02:40:15.120797 [debug] [Thread-1 (]: Finished running node test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1
+[0m02:40:15.120797 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_patch_velocity_avg_days_to_patch (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_avg_days_to_patch.sql.
+[0m02:40:15.151362 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:dd51a0a6-55e6-4d33-97a1-fe8da1c0b699&page=queryresults
+[0m02:40:15.152382 [error] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:dd51a0a6-55e6-4d33-97a1-fe8da1c0b699&page=queryresults
+[0m02:40:15.157887 [debug] [Thread-2 (]: Database Error in test unique_mart_ecosystem_health_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\unique_mart_ecosystem_health_ecosystem.sql
+[0m02:40:15.158888 [error] [Thread-2 (]: 11 of 12 ERROR unique_mart_ecosystem_health_ecosystem .......................... [[31mERROR[0m in 1.36s]
+[0m02:40:15.159888 [debug] [Thread-2 (]: Finished running node test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8
+[0m02:40:15.160883 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8' to be skipped because of status 'error'.  Reason: Database Error in test unique_mart_ecosystem_health_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\unique_mart_ecosystem_health_ecosystem.sql.
+[0m02:40:15.299646 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:8e7941db-3605-46cc-b38a-158e3dd1f52b&page=queryresults
+[0m02:40:15.300646 [error] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:8e7941db-3605-46cc-b38a-158e3dd1f52b&page=queryresults
+[0m02:40:15.307633 [debug] [Thread-3 (]: Database Error in test not_null_mart_patch_velocity_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_ecosystem.sql
+[0m02:40:15.307633 [error] [Thread-3 (]: 10 of 12 ERROR not_null_mart_patch_velocity_ecosystem .......................... [[31mERROR[0m in 1.55s]
+[0m02:40:15.308633 [debug] [Thread-3 (]: Finished running node test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864
+[0m02:40:15.310157 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864' to be skipped because of status 'error'.  Reason: Database Error in test not_null_mart_patch_velocity_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_ecosystem.sql.
+[0m02:40:15.566489 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:c792fef2-8f56-418a-9aba-839027c84f99&page=queryresults
+[0m02:40:15.566489 [error] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=erudite-river-423507-n3&j=bq:US:c792fef2-8f56-418a-9aba-839027c84f99&page=queryresults
+[0m02:40:15.571450 [debug] [Thread-4 (]: Database Error in test unique_mart_maintainer_risk_package_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\unique_mart_maintainer_risk_package_id.sql
+[0m02:40:15.572444 [error] [Thread-4 (]: 12 of 12 ERROR unique_mart_maintainer_risk_package_id .......................... [[31mERROR[0m in 1.08s]
+[0m02:40:15.572444 [debug] [Thread-4 (]: Finished running node test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4
+[0m02:40:15.573865 [debug] [Thread-7 (]: Marking all children of 'test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4' to be skipped because of status 'error'.  Reason: Database Error in test unique_mart_maintainer_risk_package_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\unique_mart_maintainer_risk_package_id.sql.
+[0m02:40:15.575872 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:40:15.576872 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:40:15.576872 [debug] [MainThread]: Connection 'list_erudite-river-423507-n3_vulngraph' was properly closed.
+[0m02:40:15.576872 [debug] [MainThread]: Connection 'test.vulngraph.not_null_mart_patch_velocity_avg_days_to_patch.ec738284f1' was properly closed.
+[0m02:40:15.578254 [debug] [MainThread]: Connection 'test.vulngraph.unique_mart_ecosystem_health_ecosystem.5d184cb4e8' was properly closed.
+[0m02:40:15.578254 [debug] [MainThread]: Connection 'test.vulngraph.not_null_mart_patch_velocity_ecosystem.5f86765864' was properly closed.
+[0m02:40:15.579265 [debug] [MainThread]: Connection 'test.vulngraph.unique_mart_maintainer_risk_package_id.e769ec4da4' was properly closed.
+[0m02:40:15.579265 [info ] [MainThread]: 
+[0m02:40:15.580282 [info ] [MainThread]: Finished running 12 data tests in 0 hours 0 minutes and 8.59 seconds (8.59s).
+[0m02:40:15.584568 [debug] [MainThread]: Command end result
+[0m02:40:15.653874 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m02:40:15.657875 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m02:40:15.667882 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt\target\run_results.json
+[0m02:40:15.669015 [info ] [MainThread]: 
+[0m02:40:15.670015 [info ] [MainThread]: [31mCompleted with 12 errors, 0 partial successes, and 0 warnings:[0m
+[0m02:40:15.670015 [info ] [MainThread]: 
+[0m02:40:15.671009 [error] [MainThread]: [31mFailure in test not_null_mart_blast_radius_max_depth_reached (models\marts\schema.yml)[0m
+[0m02:40:15.672014 [error] [MainThread]:   Database Error in test not_null_mart_blast_radius_max_depth_reached (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_max_depth_reached.sql
+[0m02:40:15.672014 [info ] [MainThread]: 
+[0m02:40:15.673012 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_max_depth_reached.sql
+[0m02:40:15.674019 [info ] [MainThread]: 
+[0m02:40:15.674019 [error] [MainThread]: [31mFailure in test accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL (models\marts\schema.yml)[0m
+[0m02:40:15.675440 [error] [MainThread]:   Database Error in test accepted_values_mart_maintainer_risk_risk_band__LOW__MEDIUM__HIGH__CRITICAL (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\accepted_values_mart_maintaine_05ccea74a9b7565c9565004bf98b59fe.sql
+[0m02:40:15.675440 [info ] [MainThread]: 
+[0m02:40:15.676534 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\accepted_values_mart_maintaine_05ccea74a9b7565c9565004bf98b59fe.sql
+[0m02:40:15.676534 [info ] [MainThread]: 
+[0m02:40:15.677665 [error] [MainThread]: [31mFailure in test not_null_mart_blast_radius_total_impacted_packages (models\marts\schema.yml)[0m
+[0m02:40:15.678541 [error] [MainThread]:   Database Error in test not_null_mart_blast_radius_total_impacted_packages (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_total_impacted_packages.sql
+[0m02:40:15.679541 [info ] [MainThread]: 
+[0m02:40:15.680547 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_total_impacted_packages.sql
+[0m02:40:15.681543 [info ] [MainThread]: 
+[0m02:40:15.681543 [error] [MainThread]: [31mFailure in test dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date (models\marts\schema.yml)[0m
+[0m02:40:15.682543 [error] [MainThread]:   Database Error in test dbt_utils_unique_combination_of_columns_mart_patch_velocity_ecosystem__exposure_date (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\dbt_utils_unique_combination_o_db31271102a5b7e90a854de77df63006.sql
+[0m02:40:15.683551 [info ] [MainThread]: 
+[0m02:40:15.684541 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\dbt_utils_unique_combination_o_db31271102a5b7e90a854de77df63006.sql
+[0m02:40:15.684541 [info ] [MainThread]: 
+[0m02:40:15.685547 [error] [MainThread]: [31mFailure in test not_null_mart_ecosystem_health_abandonment_rate (models\marts\schema.yml)[0m
+[0m02:40:15.685547 [error] [MainThread]:   Database Error in test not_null_mart_ecosystem_health_abandonment_rate (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_abandonment_rate.sql
+[0m02:40:15.686542 [info ] [MainThread]: 
+[0m02:40:15.686542 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_abandonment_rate.sql
+[0m02:40:15.686542 [info ] [MainThread]: 
+[0m02:40:15.688050 [error] [MainThread]: [31mFailure in test not_null_mart_blast_radius_vuln_id (models\marts\schema.yml)[0m
+[0m02:40:15.689069 [error] [MainThread]:   Database Error in test not_null_mart_blast_radius_vuln_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_blast_radius was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_vuln_id.sql
+[0m02:40:15.689069 [info ] [MainThread]: 
+[0m02:40:15.690059 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_blast_radius_vuln_id.sql
+[0m02:40:15.690059 [info ] [MainThread]: 
+[0m02:40:15.691056 [error] [MainThread]: [31mFailure in test not_null_mart_maintainer_risk_package_id (models\marts\schema.yml)[0m
+[0m02:40:15.691056 [error] [MainThread]:   Database Error in test not_null_mart_maintainer_risk_package_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_maintainer_risk_package_id.sql
+[0m02:40:15.692058 [info ] [MainThread]: 
+[0m02:40:15.693057 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_maintainer_risk_package_id.sql
+[0m02:40:15.693057 [info ] [MainThread]: 
+[0m02:40:15.694057 [error] [MainThread]: [31mFailure in test not_null_mart_ecosystem_health_ecosystem (models\marts\schema.yml)[0m
+[0m02:40:15.695056 [error] [MainThread]:   Database Error in test not_null_mart_ecosystem_health_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_ecosystem.sql
+[0m02:40:15.696062 [info ] [MainThread]: 
+[0m02:40:15.696062 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_ecosystem_health_ecosystem.sql
+[0m02:40:15.697058 [info ] [MainThread]: 
+[0m02:40:15.698057 [error] [MainThread]: [31mFailure in test not_null_mart_patch_velocity_avg_days_to_patch (models\marts\schema.yml)[0m
+[0m02:40:15.698057 [error] [MainThread]:   Database Error in test not_null_mart_patch_velocity_avg_days_to_patch (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_avg_days_to_patch.sql
+[0m02:40:15.699056 [info ] [MainThread]: 
+[0m02:40:15.699056 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_avg_days_to_patch.sql
+[0m02:40:15.700056 [info ] [MainThread]: 
+[0m02:40:15.700056 [error] [MainThread]: [31mFailure in test unique_mart_ecosystem_health_ecosystem (models\marts\schema.yml)[0m
+[0m02:40:15.701056 [error] [MainThread]:   Database Error in test unique_mart_ecosystem_health_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_ecosystem_health was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\unique_mart_ecosystem_health_ecosystem.sql
+[0m02:40:15.702344 [info ] [MainThread]: 
+[0m02:40:15.703357 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\unique_mart_ecosystem_health_ecosystem.sql
+[0m02:40:15.703357 [info ] [MainThread]: 
+[0m02:40:15.704361 [error] [MainThread]: [31mFailure in test not_null_mart_patch_velocity_ecosystem (models\marts\schema.yml)[0m
+[0m02:40:15.704361 [error] [MainThread]:   Database Error in test not_null_mart_patch_velocity_ecosystem (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_patch_velocity was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_ecosystem.sql
+[0m02:40:15.705364 [info ] [MainThread]: 
+[0m02:40:15.706363 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\not_null_mart_patch_velocity_ecosystem.sql
+[0m02:40:15.706363 [info ] [MainThread]: 
+[0m02:40:15.707362 [error] [MainThread]: [31mFailure in test unique_mart_maintainer_risk_package_id (models\marts\schema.yml)[0m
+[0m02:40:15.708468 [error] [MainThread]:   Database Error in test unique_mart_maintainer_risk_package_id (models\marts\schema.yml)
+  Not found: Table erudite-river-423507-n3:vulngraph.mart_maintainer_risk was not found in location US
+  compiled code at target\run\vulngraph\models\marts\schema.yml\unique_mart_maintainer_risk_package_id.sql
+[0m02:40:15.709479 [info ] [MainThread]: 
+[0m02:40:15.709479 [info ] [MainThread]:   compiled code at target\compiled\vulngraph\models\marts\schema.yml\unique_mart_maintainer_risk_package_id.sql
+[0m02:40:15.710477 [info ] [MainThread]: 
+[0m02:40:15.711476 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=12 SKIP=0 NO-OP=0 TOTAL=12
+[0m02:40:15.712481 [debug] [MainThread]: Command `dbt test` failed at 02:40:15.712481 after 11.73 seconds
+[0m02:40:15.712481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F03D04950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F00224560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F0328FFE0>]}
+[0m02:40:15.713480 [debug] [MainThread]: Flushing usage events
+[0m02:40:17.718128 [debug] [MainThread]: An error was encountered while trying to flush usage events

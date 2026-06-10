@@ -1,0 +1,90 @@
+{
+  "batch_id": "adf3d3f03f6f8acc2d1183c048f3102903422d1f9bb2f1494fe9d842d8837a0f",
+  "ingested_at": "2026-06-09T18:17:36.214234+00:00",
+  "package_count": 3,
+  "version_count": 5,
+  "maintainer_count": 3,
+  "packages": [
+    {
+      "package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "name": "fastapi",
+      "ecosystem": "pypi",
+      "latest_version": "0.115.1",
+      "maintainer_id": "c502661bcfa7ede6c084d0e3dc85fe72",
+      "is_deprecated": false
+    },
+    {
+      "package_id": "3a43b4f88325d94022c0efa9c2fa2f5a",
+      "name": "pandas",
+      "ecosystem": "pypi",
+      "latest_version": "2.2.1",
+      "maintainer_id": "6731432b4833e4bbaaa40c049df12076",
+      "is_deprecated": false
+    },
+    {
+      "package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "name": "requests",
+      "ecosystem": "pypi",
+      "latest_version": "2.31.0",
+      "maintainer_id": "04638f76600328dd632875a3e1043312",
+      "is_deprecated": false
+    }
+  ],
+  "versions": [
+    {
+      "version_id": "99711f507d2e21ecf87a836b7270d9d9",
+      "package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "semver": "0.115.0",
+      "release_date": "2025-01-01T00:00:00+00:00",
+      "yanked_flag": false
+    },
+    {
+      "version_id": "7b72e94212bd543d2a9936a6a126ca0f",
+      "package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "semver": "0.115.1",
+      "release_date": "2025-01-15T00:00:00+00:00",
+      "yanked_flag": false
+    },
+    {
+      "version_id": "50a9f9ea927c56cb72af743cef0c5113",
+      "package_id": "3a43b4f88325d94022c0efa9c2fa2f5a",
+      "semver": "2.2.0",
+      "release_date": "2025-01-05T00:00:00+00:00",
+      "yanked_flag": false
+    },
+    {
+      "version_id": "561f67c93e0a878a821bbb3d7f50247e",
+      "package_id": "3a43b4f88325d94022c0efa9c2fa2f5a",
+      "semver": "2.2.1",
+      "release_date": "2025-02-01T00:00:00+00:00",
+      "yanked_flag": false
+    },
+    {
+      "version_id": "28018d9fbabc7b66a8ecb7e5994ce965",
+      "package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "semver": "2.31.0",
+      "release_date": "2025-01-03T00:00:00+00:00",
+      "yanked_flag": false
+    }
+  ],
+  "maintainers": [
+    {
+      "maintainer_id": "c502661bcfa7ede6c084d0e3dc85fe72",
+      "handle": "tiangolo",
+      "org": "fastapi",
+      "verified": true
+    },
+    {
+      "maintainer_id": "6731432b4833e4bbaaa40c049df12076",
+      "handle": "pandas-dev",
+      "org": "pandas",
+      "verified": true
+    },
+    {
+      "maintainer_id": "04638f76600328dd632875a3e1043312",
+      "handle": "kennethreitz",
+      "org": "requests",
+      "verified": false
+    }
+  ]
+}

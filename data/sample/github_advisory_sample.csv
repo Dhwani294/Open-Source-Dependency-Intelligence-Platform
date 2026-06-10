@@ -1,0 +1,6 @@
+ghsa_id,cve_id,package_name,ecosystem,severity,cvss_score,published_date,patched_version
+GHSA-1111,CVE-2025-1001,fastapi,pypi,CRITICAL,9.8,2025-01-01,0.115.1
+GHSA-1112,CVE-2025-1002,pandas,pypi,HIGH,8.2,2025-01-05,2.2.1
+GHSA-1113,CVE-2025-1003,express,npm,HIGH,7.9,2025-01-10,4.18.2
+GHSA-1114,CVE-2025-1004,spring-core,maven,CRITICAL,9.4,2025-01-12,6.0.2
+GHSA-1115,CVE-2025-1005,gin,go,MEDIUM,5.4,2025-01-15,1.8.1

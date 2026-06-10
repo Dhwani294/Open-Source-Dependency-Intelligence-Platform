@@ -1,0 +1,51 @@
+{
+    "path_count": 239,
+    "parsed_path_count": 2,
+    "static_analysis_path_count": 1,
+    "static_analysis_parsed_path_count": 1,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.10512880000169389,
+    "load_macros_elapsed": 0.000781399998231791,
+    "parse_project_elapsed": 0.569920900001307,
+    "patch_sources_elapsed": 2.409999433439225e-05,
+    "process_manifest_elapsed": 0.002557099986006506,
+    "load_all_elapsed": 1.060660299990559,
+    "projects": [
+        {
+            "project_name": "vulngraph",
+            "elapsed": 0.5697441999946022,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.2938785000005737,
+                    "parsed_path_count": 1
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.27582200001052115,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 2
+        },
+        {
+            "project_name": "dbt_bigquery",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt_utils",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        }
+    ]
+}

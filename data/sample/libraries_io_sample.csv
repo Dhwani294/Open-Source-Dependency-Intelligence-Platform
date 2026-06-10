@@ -1,0 +1,6 @@
+package_name,ecosystem,dependency_name,version_constraint,depth_level,maintainer_handle,deprecated_flag,snapshot_date
+fastapi,pypi,pydantic,>=2.0.0,1,tiangolo,false,2025-01-01
+fastapi,pypi,starlette,>=0.38.0,1,tiangolo,false,2025-01-01
+pandas,pypi,numpy,>=2.0.0,1,pandas-dev,false,2025-01-01
+requests,pypi,urllib3,>=2.0.0,1,kennethreitz,false,2025-01-01
+requests,pypi,certifi,>=2024.0.0,1,kennethreitz,false,2025-01-01

@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+
+  - name: raw
+
+    database: "{{ env_var('GCP_PROJECT_ID') }}"
+    schema: "{{ env_var('BIGQUERY_DATASET') }}"
+
+    tables:
+
+      - name: stg_nvd
+
+      - name: stg_pypi_packages
+
+      - name: stg_pypi_versions
+
+      - name: stg_pypi_maintainers
+
+      - name: stg_osv
+
+      - name: stg_github_advisory
+
+      - name: stg_libraries_io

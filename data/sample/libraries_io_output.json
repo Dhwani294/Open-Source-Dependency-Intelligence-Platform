@@ -1,0 +1,98 @@
+{
+  "batch_id": "9f62c52ac2e532327b4ed97be39ca81ffcb0957271d2c0289649276544920300",
+  "ingested_at": "2026-06-09T18:39:45.245941+00:00",
+  "package_count": 3,
+  "dependency_count": 5,
+  "packages": [
+    {
+      "package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "package_name": "fastapi",
+      "ecosystem": "pypi",
+      "maintainer_id": "c502661bcfa7ede6c084d0e3dc85fe72",
+      "is_deprecated": false
+    },
+    {
+      "package_id": "3a43b4f88325d94022c0efa9c2fa2f5a",
+      "package_name": "pandas",
+      "ecosystem": "pypi",
+      "maintainer_id": "6731432b4833e4bbaaa40c049df12076",
+      "is_deprecated": false
+    },
+    {
+      "package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "package_name": "requests",
+      "ecosystem": "pypi",
+      "maintainer_id": "04638f76600328dd632875a3e1043312",
+      "is_deprecated": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependent_package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "dependency_id": "3a101c7835b77d79c27e1d06693aa4ce",
+      "version_constraint": ">=2.0.0",
+      "ecosystem": "pypi",
+      "depth_level": 1
+    },
+    {
+      "dependent_package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "dependency_id": "8f2fa2775166e713566ab8e2f3a46612",
+      "version_constraint": ">=0.38.0",
+      "ecosystem": "pypi",
+      "depth_level": 1
+    },
+    {
+      "dependent_package_id": "3a43b4f88325d94022c0efa9c2fa2f5a",
+      "dependency_id": "2ea9510c37f7f89e4941ff75f62f21cb",
+      "version_constraint": ">=2.0.0",
+      "ecosystem": "pypi",
+      "depth_level": 1
+    },
+    {
+      "dependent_package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "dependency_id": "e2dcb7b72d4e79426d27b13a8a78d503",
+      "version_constraint": ">=2.0.0",
+      "ecosystem": "pypi",
+      "depth_level": 1
+    },
+    {
+      "dependent_package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "dependency_id": "d7d0abc9066715a8d02b9f61cd64a871",
+      "version_constraint": ">=2024.0.0",
+      "ecosystem": "pypi",
+      "depth_level": 1
+    }
+  ],
+  "package_history": [
+    {
+      "package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "maintainer_id": "c502661bcfa7ede6c084d0e3dc85fe72",
+      "is_deprecated": false,
+      "effective_from": "2025-01-01T00:00:00+00:00"
+    },
+    {
+      "package_id": "0d32bced91aa5c2ee5696fc7995370ae",
+      "maintainer_id": "c502661bcfa7ede6c084d0e3dc85fe72",
+      "is_deprecated": false,
+      "effective_from": "2025-01-01T00:00:00+00:00"
+    },
+    {
+      "package_id": "3a43b4f88325d94022c0efa9c2fa2f5a",
+      "maintainer_id": "6731432b4833e4bbaaa40c049df12076",
+      "is_deprecated": false,
+      "effective_from": "2025-01-01T00:00:00+00:00"
+    },
+    {
+      "package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "maintainer_id": "04638f76600328dd632875a3e1043312",
+      "is_deprecated": false,
+      "effective_from": "2025-01-01T00:00:00+00:00"
+    },
+    {
+      "package_id": "3298f13049d19cffaa37ca931dd4d421",
+      "maintainer_id": "04638f76600328dd632875a3e1043312",
+      "is_deprecated": false,
+      "effective_from": "2025-01-01T00:00:00+00:00"
+    }
+  ]
+}

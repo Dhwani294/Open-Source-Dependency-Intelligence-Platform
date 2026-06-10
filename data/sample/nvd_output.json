@@ -1,0 +1,31 @@
+{
+  "batch_id": "0168722af6b1d5b1e72d38eae7670664da971934a10a0cbe5e7564f560716598",
+  "ingested_at": "2026-06-09T18:14:10.431193+00:00",
+  "row_count": 3,
+  "records": [
+    {
+      "cve_id": "CVE-2025-0001",
+      "published_date": "2025-01-01 00:00:00+00:00",
+      "last_modified_date": "2025-01-02 00:00:00+00:00",
+      "severity_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "description": "Remote code execution"
+    },
+    {
+      "cve_id": "CVE-2025-0002",
+      "published_date": "2025-01-05 00:00:00+00:00",
+      "last_modified_date": "2025-01-07 00:00:00+00:00",
+      "severity_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "description": "SQL injection"
+    },
+    {
+      "cve_id": "CVE-2025-0003",
+      "published_date": "2025-01-09 00:00:00+00:00",
+      "last_modified_date": "2025-01-10 00:00:00+00:00",
+      "severity_score": 5.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+      "description": "XSS vulnerability"
+    }
+  ]
+}

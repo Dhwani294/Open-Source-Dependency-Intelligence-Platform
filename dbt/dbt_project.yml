@@ -1,0 +1,25 @@
+name: "vulngraph"
+version: "1.0.0"
+
+config-version: 2
+
+profile: "vulngraph"
+
+model-paths:
+  - models
+
+models:
+
+  vulngraph:
+
+    staging:
+      +materialized: view
+
+    dimensions:
+      +materialized: table
+
+    facts:
+      +materialized: table
+
+    marts:
+      +materialized: table

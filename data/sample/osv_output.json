@@ -1,0 +1,76 @@
+{
+  "batch_id": "2399905f7f1c6dee0a69fb0130f643d8703b602ea64d4d0215426a9c5eccb639",
+  "ingested_at": "2026-06-09T18:34:41.184874+00:00",
+  "record_count": 5,
+  "ecosystem_count": 4,
+  "ecosystem_summary": [
+    {
+      "ecosystem": "go",
+      "vulnerability_count": 1
+    },
+    {
+      "ecosystem": "maven",
+      "vulnerability_count": 1
+    },
+    {
+      "ecosystem": "npm",
+      "vulnerability_count": 1
+    },
+    {
+      "ecosystem": "pypi",
+      "vulnerability_count": 2
+    }
+  ],
+  "records": [
+    {
+      "vuln_id": "OSV-2025-001",
+      "ecosystem": "pypi",
+      "package_name": "fastapi",
+      "severity_score": 9.8,
+      "severity_bucket": "CRITICAL",
+      "affected_version": "0.115.0",
+      "fixed_version": "0.115.1",
+      "published_date": "2025-01-10T00:00:00+00:00"
+    },
+    {
+      "vuln_id": "OSV-2025-002",
+      "ecosystem": "pypi",
+      "package_name": "pandas",
+      "severity_score": 7.5,
+      "severity_bucket": "HIGH",
+      "affected_version": "2.2.0",
+      "fixed_version": "2.2.1",
+      "published_date": "2025-01-11T00:00:00+00:00"
+    },
+    {
+      "vuln_id": "OSV-2025-003",
+      "ecosystem": "npm",
+      "package_name": "express",
+      "severity_score": 8.1,
+      "severity_bucket": "HIGH",
+      "affected_version": "4.18.0",
+      "fixed_version": "4.18.2",
+      "published_date": "2025-01-12T00:00:00+00:00"
+    },
+    {
+      "vuln_id": "OSV-2025-004",
+      "ecosystem": "maven",
+      "package_name": "spring-core",
+      "severity_score": 9.1,
+      "severity_bucket": "CRITICAL",
+      "affected_version": "6.0.0",
+      "fixed_version": "6.0.2",
+      "published_date": "2025-01-15T00:00:00+00:00"
+    },
+    {
+      "vuln_id": "OSV-2025-005",
+      "ecosystem": "go",
+      "package_name": "gin",
+      "severity_score": 5.6,
+      "severity_bucket": "MEDIUM",
+      "affected_version": "1.8.0",
+      "fixed_version": "1.8.1",
+      "published_date": "2025-01-20T00:00:00+00:00"
+    }
+  ]
+}

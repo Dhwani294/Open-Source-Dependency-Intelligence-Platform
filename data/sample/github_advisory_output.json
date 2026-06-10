@@ -1,0 +1,71 @@
+{
+  "batch_id": "5a042f9a971ae978b3f0e72b2421802ab9451b3a2819cc8a6f828b03ac968319",
+  "ingested_at": "2026-06-09T18:37:50.550602+00:00",
+  "record_count": 5,
+  "severity_summary": [
+    {
+      "severity": "CRITICAL",
+      "count": 2
+    },
+    {
+      "severity": "HIGH",
+      "count": 2
+    },
+    {
+      "severity": "MEDIUM",
+      "count": 1
+    }
+  ],
+  "records": [
+    {
+      "ghsa_id": "GHSA-1111",
+      "cve_id": "CVE-2025-1001",
+      "package_name": "fastapi",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL",
+      "cvss_score": 9.8,
+      "patched_version": "0.115.1",
+      "published_date": "2025-01-01T00:00:00+00:00"
+    },
+    {
+      "ghsa_id": "GHSA-1112",
+      "cve_id": "CVE-2025-1002",
+      "package_name": "pandas",
+      "ecosystem": "pypi",
+      "severity": "HIGH",
+      "cvss_score": 8.2,
+      "patched_version": "2.2.1",
+      "published_date": "2025-01-05T00:00:00+00:00"
+    },
+    {
+      "ghsa_id": "GHSA-1113",
+      "cve_id": "CVE-2025-1003",
+      "package_name": "express",
+      "ecosystem": "npm",
+      "severity": "HIGH",
+      "cvss_score": 7.9,
+      "patched_version": "4.18.2",
+      "published_date": "2025-01-10T00:00:00+00:00"
+    },
+    {
+      "ghsa_id": "GHSA-1114",
+      "cve_id": "CVE-2025-1004",
+      "package_name": "spring-core",
+      "ecosystem": "maven",
+      "severity": "CRITICAL",
+      "cvss_score": 9.4,
+      "patched_version": "6.0.2",
+      "published_date": "2025-01-12T00:00:00+00:00"
+    },
+    {
+      "ghsa_id": "GHSA-1115",
+      "cve_id": "CVE-2025-1005",
+      "package_name": "gin",
+      "ecosystem": "go",
+      "severity": "MEDIUM",
+      "cvss_score": 5.4,
+      "patched_version": "1.8.1",
+      "published_date": "2025-01-15T00:00:00+00:00"
+    }
+  ]
+}

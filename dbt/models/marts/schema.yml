@@ -1,0 +1,73 @@
+version: 2
+
+models:
+
+  - name: mart_patch_velocity
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - ecosystem
+            - exposure_date
+
+    columns:
+
+      - name: ecosystem
+        tests:
+          - not_null
+
+      - name: avg_days_to_patch
+        tests:
+          - not_null
+
+  - name: mart_maintainer_risk
+
+    columns:
+
+      - name: package_id
+        tests:
+          - unique
+          - not_null
+
+      - name: risk_band
+        tests:
+          - accepted_values:
+              values:
+                - LOW
+                - MEDIUM
+                - HIGH
+                - CRITICAL
+
+  - name: mart_ecosystem_health
+
+    columns:
+
+      - name: ecosystem
+        tests:
+          - unique
+          - not_null
+
+      - name: abandonment_rate
+        tests:
+          - not_null
+
+
+
+  - name: mart_blast_radius
+
+    columns:
+
+      - name: vuln_id
+        tests:
+          - not_null
+
+      - name: total_impacted_packages
+        tests:
+          - not_null
+
+      - name: max_depth_reached
+        tests:
+          - not_null
+          
+
+
