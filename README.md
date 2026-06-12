@@ -491,6 +491,6 @@ Planned enhancements include:
 
 # About This Project
 
-This project was built as a portfolio-grade data engineering system to demonstrate practical experience with modern analytics engineering, data warehousing, orchestration, and security intelligence workflows.
+A portfolio-grade data engineering system to demonstrate practical experience with modern analytics engineering, data warehousing, orchestration, and security intelligence workflows.
 
 It reflects the type of architecture commonly found in vulnerability management, software supply chain security, and enterprise analytics platforms.
