@@ -13,7 +13,6 @@
 ![Status](https://img.shields.io/badge/Status-Portfolio_Project-success)
 
 ---
-
 Modern software depends heavily on open-source packages.
 
 A single vulnerability in a widely used dependency can affect thousands of downstream applications.
